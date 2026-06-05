@@ -1,0 +1,501 @@
+Anode_Alloy,Anode_Table1_Group,Anode_Group_ID,Cathode_Alloy,Cathode_Table1_Group,Cathode_Group_ID,Potential_Difference_V,Environment,Electrolyte_Conductivity_Sm,Cathode_Anode_Area_Ratio,R_p_Anode_Ohm_m2,R_p_Cathode_Ohm_m2,Target_Galvanic_Current_Density,PDF_Compatibility_Status
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.14,Industrial (Acidic Rain),0.1,7.383,1.0,2.0,0.089977,Compatible
+Chlorimet 2,"Nickel, Cobalt",16,Nickel (passive),"Nickel, Cobalt",16,0.16,Industrial (Acidic Rain),0.1,0.333,2.0,2.0,0.003785,Compatible
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.04,Marine (Seawater),5.0,0.136,5.0,5.0,0.000527,Compatible
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Cast iron,"Steels-Carbon, Low Alloy",6,0.12,Marine (Seawater),5.0,0.017,0.1,0.3,0.003418,Unfavorable
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.69,Marine (Seawater),5.0,1.188,0.1,2.0,0.393798,Unfavorable
+Lead,Lead,7,Graphite,Graphite,20,0.6,Rural (Freshwater),0.01,0.592,0.3,10.0,0.003404,Unfavorable
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.56,Rural (Freshwater),0.01,0.31,0.1,1.0,0.001737,Unfavorable
+Magnesium and magnesium alloys,Magnesium,1,Platinum,"Palladium, Rhodium, Gold, Platinum",19,1.82,Industrial (Acidic Rain),0.1,0.671,0.1,10.0,0.062774,Unfavorable
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.95,Marine (Seawater),5.0,0.041,0.1,10.0,0.003905,Unfavorable
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,0.3,Marine (Seawater),5.0,0.853,5.0,1.0,0.039836,Compatible
+18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,0.3,Rural (Freshwater),0.01,1.004,5.0,1.0,0.002954,Unfavorable
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.4,Industrial (Acidic Rain),0.1,0.096,1.0,10.0,0.001903,Compatible
+18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.04,Rural (Freshwater),0.01,0.493,5.0,2.0,0.000179,Compatible
+Inconel (active),"Nickel, Cobalt",16,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.27,Rural (Freshwater),0.01,2.867,2.0,5.0,0.00667,Unfavorable
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.38,Industrial (Acidic Rain),0.1,0.821,0.3,1.0,0.027465,Unfavorable
+Chlorimet 2,"Nickel, Cobalt",16,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.13,Industrial (Acidic Rain),0.1,4.71,2.0,1.0,0.049164,Compatible
+Steel or iron,"Steels-Carbon, Low Alloy",6,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.51,Rural (Freshwater),0.01,1.337,0.3,5.0,0.00655,Unfavorable
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,0.45,Industrial (Acidic Rain),0.1,20.457,5.0,1.0,0.594415,Unfavorable
+Magnesium and magnesium alloys,Magnesium,1,Silver solder,Silver,18,1.46,Marine (Seawater),5.0,1.732,0.1,10.0,0.257879,Unfavorable
+Steel or iron,"Steels-Carbon, Low Alloy",6,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.43,Rural (Freshwater),0.01,49.522,0.3,1.0,0.214757,Unfavorable
+Cast iron,"Steels-Carbon, Low Alloy",6,Nickel (passive),"Nickel, Cobalt",16,0.49,Rural (Freshwater),0.01,0.295,0.3,2.0,0.001353,Unfavorable
+Tin,"Tin, Tin-Lead, Indium",8,Chlorimet 2,"Nickel, Cobalt",16,0.14,Rural (Freshwater),0.01,0.019,0.3,2.0,2.4e-05,Compatible
+Tin,"Tin, Tin-Lead, Indium",8,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.24,Marine (Seawater),5.0,0.591,0.3,1.0,0.092548,Unfavorable
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.53,Industrial (Acidic Rain),0.1,2.721,5.0,2.0,0.088459,Unfavorable
+"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,0.03,Rural (Freshwater),0.01,0.287,1.0,1.0,8.4e-05,Compatible
+"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.1,Industrial (Acidic Rain),0.1,1.286,1.0,5.0,0.008632,Compatible
+Lead,Lead,7,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.63,Industrial (Acidic Rain),0.1,4.798,0.3,10.0,0.143763,Unfavorable
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.49,Rural (Freshwater),0.01,1.972,2.0,10.0,0.009778,Unfavorable
+Cast iron,"Steels-Carbon, Low Alloy",6,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.57,Marine (Seawater),5.0,0.234,0.3,2.0,0.054469,Unfavorable
+Magnesium and magnesium alloys,Magnesium,1,Lead,Lead,7,1.13,Industrial (Acidic Rain),0.1,0.26,0.1,0.3,0.026708,Unfavorable
+Copper,"Copper-High Nickel, Monel",15,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.05,Industrial (Acidic Rain),0.1,0.228,1.0,1.0,0.000935,Compatible
+Cast iron,"Steels-Carbon, Low Alloy",6,Tin,"Tin, Tin-Lead, Indium",8,0.19,Marine (Seawater),5.0,4.342,0.3,0.3,1.050124,Compatible
+Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.06,Industrial (Acidic Rain),0.1,2.66,5.0,2.0,0.009572,Unfavorable
+18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.36,Industrial (Acidic Rain),0.1,0.156,5.0,1.0,0.003519,Compatible
+Nickel (active),"Nickel, Cobalt",16,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.17,Rural (Freshwater),0.01,1.955,2.0,1.0,0.0031,Compatible
+Cadmium,"Cadmium, Beryllium",3,Silver solder,Silver,18,0.56,Industrial (Acidic Rain),0.1,0.575,0.1,10.0,0.016519,Unfavorable
+Lead-tin solders,"Tin, Tin-Lead, Indium",8,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.46,Rural (Freshwater),0.01,0.242,0.3,2.0,0.001071,Unfavorable
+Cast iron,"Steels-Carbon, Low Alloy",6,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.43,Industrial (Acidic Rain),0.1,0.045,0.3,1.0,0.001694,Unfavorable
+Lead,Lead,7,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.37,Industrial (Acidic Rain),0.1,2.213,0.3,5.0,0.050849,Compatible
+Inconel (active),"Nickel, Cobalt",16,Silver solder,Silver,18,0.21,Rural (Freshwater),0.01,0.302,2.0,10.0,0.000539,Compatible
+Magnesium and magnesium alloys,Magnesium,1,Copper,"Copper-High Nickel, Monel",15,1.4,Industrial (Acidic Rain),0.1,0.353,0.1,1.0,0.040394,Unfavorable
+Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.02,Industrial (Acidic Rain),0.1,0.648,5.0,5.0,0.000616,Compatible
+Lead-tin solders,"Tin, Tin-Lead, Indium",8,Titanium,Titanium,17,0.56,Rural (Freshwater),0.01,0.277,0.3,10.0,0.001315,Unfavorable
+Copper,"Copper-High Nickel, Monel",15,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.42,Marine (Seawater),5.0,0.818,1.0,10.0,0.032236,Compatible
+Magnesium and magnesium alloys,Magnesium,1,Cadmium,"Cadmium, Beryllium",3,0.9,Rural (Freshwater),0.01,8.423,0.1,0.1,0.074993,Unfavorable
+"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,Graphite,Graphite,20,0.25,Industrial (Acidic Rain),0.1,0.546,1.0,10.0,0.006787,Unfavorable
+"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.39,Rural (Freshwater),0.01,0.413,1.0,10.0,0.001485,Unfavorable
+"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.33,Marine (Seawater),5.0,0.226,1.0,10.0,0.00642,Compatible
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.43,Marine (Seawater),5.0,3.572,5.0,5.0,0.140692,Compatible
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Lead,Lead,7,0.26,Rural (Freshwater),0.01,0.343,0.1,0.3,0.000888,Unfavorable
+Lead,Lead,7,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.3,Industrial (Acidic Rain),0.1,0.125,0.3,1.0,0.0033,Unfavorable
+Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.13,Marine (Seawater),5.0,3.45,1.0,5.0,0.071475,Unfavorable
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.15,Rural (Freshwater),0.01,27.99,2.0,1.0,0.04309,Compatible
+Nickel (passive),"Nickel, Cobalt",16,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.04,Marine (Seawater),5.0,1.07,2.0,5.0,0.005974,Compatible
+Nickel (active),"Nickel, Cobalt",16,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.31,Rural (Freshwater),0.01,0.14,2.0,2.0,0.000417,Compatible
+Cadmium,"Cadmium, Beryllium",3,Graphite,Graphite,20,0.83,Rural (Freshwater),0.01,0.363,0.1,10.0,0.002611,Unfavorable
+Graphite,Graphite,20,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.09,Marine (Seawater),5.0,0.517,10.0,10.0,0.002249,Compatible
+Lead,Lead,7,Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,0.24,Marine (Seawater),5.0,22.33,0.3,1.0,3.70764,Unfavorable
+"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.05,Industrial (Acidic Rain),0.1,5.482,1.0,5.0,0.016114,Unfavorable
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.48,Marine (Seawater),5.0,1.451,5.0,5.0,0.069219,Compatible
+Cast iron,"Steels-Carbon, Low Alloy",6,Steel or iron,"Steels-Carbon, Low Alloy",6,0.0,Rural (Freshwater),0.01,2.137,0.3,0.3,0.0,Compatible
+Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.05,Industrial (Acidic Rain),0.1,14.984,1.0,1.0,0.057839,Compatible
+Lead,Lead,7,Inconel (active),"Nickel, Cobalt",16,0.12,Industrial (Acidic Rain),0.1,0.356,0.3,2.0,0.003171,Unfavorable
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,Copper,"Copper-High Nickel, Monel",15,0.37,Marine (Seawater),5.0,0.346,5.0,1.0,0.020826,Unfavorable
+Magnesium and magnesium alloys,Magnesium,1,Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,1.03,Industrial (Acidic Rain),0.1,8.49,0.1,5.0,0.580587,Unfavorable
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,0.18,Rural (Freshwater),0.01,3.015,0.1,0.3,0.005548,Compatible
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Lead,Lead,7,0.26,Rural (Freshwater),0.01,0.122,0.1,0.3,0.000317,Unfavorable
+Zinc,"Zinc, Zinc Coating",2,Nickel (passive),"Nickel, Cobalt",16,0.91,Rural (Freshwater),0.01,2.268,0.1,2.0,0.019002,Unfavorable
+Inconel (active),"Nickel, Cobalt",16,Graphite,Graphite,20,0.48,Marine (Seawater),5.0,0.589,2.0,10.0,0.023143,Unfavorable
+Tin,"Tin, Tin-Lead, Indium",8,Silver solder,Silver,18,0.28,Rural (Freshwater),0.01,0.801,0.3,10.0,0.002223,Unfavorable
+Cast iron,"Steels-Carbon, Low Alloy",6,18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.08,Rural (Freshwater),0.01,2.137,0.3,5.0,0.001611,Compatible
+18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Chlorimet 2,"Nickel, Cobalt",16,0.25,Industrial (Acidic Rain),0.1,0.051,5.0,2.0,0.000761,Compatible
+"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,Silver,Silver,18,0.16,Rural (Freshwater),0.01,25.557,1.0,10.0,0.034251,Compatible
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,Tin,"Tin, Tin-Lead, Indium",8,0.15,Marine (Seawater),5.0,2.801,5.0,0.3,0.074416,Compatible
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Silver,Silver,18,0.77,Industrial (Acidic Rain),0.1,0.287,0.1,10.0,0.011275,Unfavorable
+Titanium,Titanium,17,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.16,Rural (Freshwater),0.01,10.14,10.0,10.0,0.013508,Compatible
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,Chlorimet 2,"Nickel, Cobalt",16,0.05,Industrial (Acidic Rain),0.1,18.37,2.0,2.0,0.064294,Compatible
+Steel or iron,"Steels-Carbon, Low Alloy",6,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.43,Marine (Seawater),5.0,1.689,0.3,1.0,0.479391,Unfavorable
+"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.07,Rural (Freshwater),0.01,0.696,1.0,5.0,0.000437,Compatible
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.47,Marine (Seawater),5.0,3.576,0.3,5.0,0.296269,Unfavorable
+Tin,"Tin, Tin-Lead, Indium",8,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.32,Marine (Seawater),5.0,0.291,0.3,5.0,0.018156,Compatible
+Magnesium and magnesium alloys,Magnesium,1,Graphite,Graphite,20,1.73,Industrial (Acidic Rain),0.1,1.637,0.1,10.0,0.139295,Unfavorable
+Steel or iron,"Steels-Carbon, Low Alloy",6,"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,0.28,Industrial (Acidic Rain),0.1,1.3,0.3,2.0,0.028383,Unfavorable
+18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.3,Marine (Seawater),5.0,0.283,5.0,10.0,0.006125,Unfavorable
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,Titanium,Titanium,17,0.24,Industrial (Acidic Rain),0.1,2.765,1.0,10.0,0.032266,Compatible
+Titanium,Titanium,17,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.1,Marine (Seawater),5.0,0.17,10.0,10.0,0.000874,Compatible
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Nickel (active),"Nickel, Cobalt",16,0.38,Industrial (Acidic Rain),0.1,1.727,0.1,2.0,0.049529,Unfavorable
+Tin,"Tin, Tin-Lead, Indium",8,Titanium,Titanium,17,0.48,Industrial (Acidic Rain),0.1,0.937,0.3,10.0,0.020258,Unfavorable
+Zinc,"Zinc, Zinc Coating",2,Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,0.3,Rural (Freshwater),0.01,0.13,0.1,0.1,0.000392,Unfavorable
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.37,Industrial (Acidic Rain),0.1,0.174,0.3,1.0,0.005227,Unfavorable
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.28,Industrial (Acidic Rain),0.1,14.633,2.0,5.0,0.234357,Compatible
+Copper,"Copper-High Nickel, Monel",15,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.16,Rural (Freshwater),0.01,0.191,1.0,2.0,0.000289,Compatible
+Tin,"Tin, Tin-Lead, Indium",8,Chlorimet 2,"Nickel, Cobalt",16,0.14,Rural (Freshwater),0.01,0.664,0.3,2.0,0.000861,Compatible
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Silver solder,Silver,18,0.59,Rural (Freshwater),0.01,0.542,0.1,10.0,0.003127,Unfavorable
+"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.31,Rural (Freshwater),0.01,3.665,1.0,10.0,0.010207,Unfavorable
+Cast iron,"Steels-Carbon, Low Alloy",6,Nickel (passive),"Nickel, Cobalt",16,0.49,Industrial (Acidic Rain),0.1,0.247,0.3,2.0,0.009224,Unfavorable
+Chlorimet 2,"Nickel, Cobalt",16,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.13,Marine (Seawater),5.0,0.315,2.0,1.0,0.0133,Compatible
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.65,Industrial (Acidic Rain),0.1,3.144,0.1,2.0,0.166341,Unfavorable
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,Silver,Silver,18,0.22,Marine (Seawater),5.0,0.58,1.0,10.0,0.011245,Compatible
+"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,Silver,Silver,18,0.21,Marine (Seawater),5.0,1.854,1.0,10.0,0.035335,Compatible
+Magnesium and magnesium alloys,Magnesium,1,Silver solder,Silver,18,1.46,Marine (Seawater),5.0,1.895,0.1,10.0,0.290206,Unfavorable
+"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.31,Industrial (Acidic Rain),0.1,1.317,1.0,10.0,0.017618,Compatible
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.77,Marine (Seawater),5.0,1.959,0.3,10.0,0.150253,Unfavorable
+Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.06,Marine (Seawater),5.0,6.446,5.0,2.0,0.052088,Unfavorable
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.38,Rural (Freshwater),0.01,0.932,5.0,1.0,0.003432,Unfavorable
+Lead-tin solders,"Tin, Tin-Lead, Indium",8,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.72,Industrial (Acidic Rain),0.1,2.402,0.3,10.0,0.088641,Unfavorable
+Steel or iron,"Steels-Carbon, Low Alloy",6,18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.08,Rural (Freshwater),0.01,2.426,0.3,5.0,0.001844,Compatible
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,0.2,Marine (Seawater),5.0,2.85,5.0,2.0,0.0758,Compatible
+Cast iron,"Steels-Carbon, Low Alloy",6,Nickel (passive),"Nickel, Cobalt",16,0.49,Marine (Seawater),5.0,0.6,0.3,2.0,0.112684,Unfavorable
+Inconel (active),"Nickel, Cobalt",16,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.2,Industrial (Acidic Rain),0.1,7.273,2.0,1.0,0.10434,Compatible
+Cadmium,"Cadmium, Beryllium",3,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.62,Marine (Seawater),5.0,1.689,0.1,5.0,0.187774,Unfavorable
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,0.3,Industrial (Acidic Rain),0.1,0.679,5.0,1.0,0.012765,Compatible
+Steel or iron,"Steels-Carbon, Low Alloy",6,Lead,Lead,7,0.14,Marine (Seawater),5.0,10.272,0.3,0.3,1.799348,Compatible
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.1,Rural (Freshwater),0.01,2.065,1.0,5.0,0.002001,Compatible
+Zinc,"Zinc, Zinc Coating",2,"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,0.7,Marine (Seawater),5.0,0.189,0.1,2.0,0.053128,Unfavorable
+"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.26,Rural (Freshwater),0.01,0.097,2.0,10.0,0.000237,Unfavorable
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.04,Marine (Seawater),5.0,2.524,5.0,5.0,0.009832,Compatible
+Zinc,"Zinc, Zinc Coating",2,18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.5,Rural (Freshwater),0.01,3.926,0.1,5.0,0.017913,Unfavorable
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,Chlorimet 2,"Nickel, Cobalt",16,0.05,Marine (Seawater),5.0,0.498,2.0,2.0,0.006002,Compatible
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,Silver solder,Silver,18,0.19,Marine (Seawater),5.0,5.913,2.0,10.0,0.089936,Compatible
+Lead,Lead,7,Silver solder,Silver,18,0.33,Rural (Freshwater),0.01,0.27,0.3,10.0,0.000837,Unfavorable
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.14,Marine (Seawater),5.0,3.34,1.0,2.0,0.138858,Compatible
+Steel or iron,"Steels-Carbon, Low Alloy",6,Titanium,Titanium,17,0.67,Marine (Seawater),5.0,2.944,0.3,10.0,0.193088,Unfavorable
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Chlorimet 2,"Nickel, Cobalt",16,0.41,Rural (Freshwater),0.01,0.487,0.1,2.0,0.001609,Unfavorable
+Tin,"Tin, Tin-Lead, Indium",8,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.37,Rural (Freshwater),0.01,0.46,0.3,5.0,0.00166,Unfavorable
+Cast iron,"Steels-Carbon, Low Alloy",6,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.77,Industrial (Acidic Rain),0.1,0.131,0.3,10.0,0.004188,Unfavorable
+Magnesium and magnesium alloys,Magnesium,1,"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,1.48,Rural (Freshwater),0.01,0.277,0.1,1.0,0.004131,Unfavorable
+Inconel (active),"Nickel, Cobalt",16,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.31,Industrial (Acidic Rain),0.1,2.059,2.0,2.0,0.043503,Compatible
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.54,Rural (Freshwater),0.01,0.838,0.1,1.0,0.004473,Unfavorable
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,Silver solder,Silver,18,0.19,Marine (Seawater),5.0,2.585,2.0,10.0,0.039925,Compatible
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,Nickel (passive),"Nickel, Cobalt",16,0.43,Rural (Freshwater),0.01,0.502,0.3,2.0,0.002247,Unfavorable
+18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.35,Industrial (Acidic Rain),0.1,0.124,5.0,1.0,0.002831,Compatible
+Chlorimet 2,"Nickel, Cobalt",16,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.1,Marine (Seawater),5.0,0.795,2.0,1.0,0.025928,Compatible
+Zinc,"Zinc, Zinc Coating",2,Copper,"Copper-High Nickel, Monel",15,0.83,Marine (Seawater),5.0,0.664,0.1,1.0,0.397945,Unfavorable
+Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,Graphite,Graphite,20,0.23,Industrial (Acidic Rain),0.1,0.898,5.0,10.0,0.008118,Unfavorable
+Cast iron,"Steels-Carbon, Low Alloy",6,Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,0.04,Industrial (Acidic Rain),0.1,1.839,0.3,5.0,0.004566,Compatible
+Cast iron,"Steels-Carbon, Low Alloy",6,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.56,Marine (Seawater),5.0,1.166,0.3,5.0,0.114633,Unfavorable
+"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.1,Rural (Freshwater),0.01,0.299,1.0,5.0,0.000294,Compatible
+Copper,"Copper-High Nickel, Monel",15,"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,0.08,Marine (Seawater),5.0,0.363,1.0,1.0,0.013075,Compatible
+Nickel (passive),"Nickel, Cobalt",16,Silver,Silver,18,0.16,Rural (Freshwater),0.01,0.458,2.0,10.0,0.000665,Compatible
+Cadmium,"Cadmium, Beryllium",3,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.92,Rural (Freshwater),0.01,0.352,0.1,10.0,0.002946,Unfavorable
+Magnesium and magnesium alloys,Magnesium,1,"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,0.91,Rural (Freshwater),0.01,1.966,0.1,0.1,0.015785,Unfavorable
+"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,Silver,Silver,18,0.08,Industrial (Acidic Rain),0.1,1.395,2.0,10.0,0.005192,Compatible
+Cadmium,"Cadmium, Beryllium",3,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.53,Rural (Freshwater),0.01,12.273,0.1,1.0,0.062741,Unfavorable
+Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.15,Rural (Freshwater),0.01,0.067,1.0,5.0,9.5e-05,Compatible
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.71,Industrial (Acidic Rain),0.1,2.508,0.3,10.0,0.081771,Unfavorable
+Chlorimet 2,"Nickel, Cobalt",16,"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,0.16,Marine (Seawater),5.0,1.764,2.0,1.0,0.096377,Compatible
+Tin,"Tin, Tin-Lead, Indium",8,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.34,Marine (Seawater),5.0,0.829,0.3,5.0,0.051515,Compatible
+Lead,Lead,7,Nickel (passive),"Nickel, Cobalt",16,0.35,Marine (Seawater),5.0,1.548,0.3,2.0,0.200197,Unfavorable
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Titanium,Titanium,17,0.79,Marine (Seawater),5.0,1.695,0.1,10.0,0.130425,Unfavorable
+Nickel (active),"Nickel, Cobalt",16,Copper,"Copper-High Nickel, Monel",15,0.15,Industrial (Acidic Rain),0.1,3.283,2.0,1.0,0.039224,Compatible
+Inconel (active),"Nickel, Cobalt",16,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.57,Rural (Freshwater),0.01,0.231,2.0,10.0,0.001148,Unfavorable
+Tin,"Tin, Tin-Lead, Indium",8,Nickel (passive),"Nickel, Cobalt",16,0.3,Rural (Freshwater),0.01,2.559,0.3,2.0,0.007717,Unfavorable
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.5,Marine (Seawater),5.0,7.397,0.3,5.0,0.725545,Unfavorable
+Silver solder,Silver,18,Titanium,Titanium,17,0.2,Industrial (Acidic Rain),0.1,5.695,10.0,10.0,0.039635,Compatible
+Magnesium and magnesium alloys,Magnesium,1,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,1.42,Industrial (Acidic Rain),0.1,1.407,0.1,1.0,0.172639,Unfavorable
+Lead,Lead,7,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.43,Industrial (Acidic Rain),0.1,1.381,0.3,2.0,0.044892,Unfavorable
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.28,Industrial (Acidic Rain),0.1,1.292,2.0,5.0,0.021212,Compatible
+Lead,Lead,7,Tin,"Tin, Tin-Lead, Indium",8,0.05,Marine (Seawater),5.0,0.279,0.3,0.3,0.016782,Compatible
+Tin,"Tin, Tin-Lead, Indium",8,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.27,Marine (Seawater),5.0,1.352,0.3,1.0,0.230175,Unfavorable
+18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.36,Marine (Seawater),5.0,29.539,5.0,1.0,1.682459,Compatible
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Steel or iron,"Steels-Carbon, Low Alloy",6,0.08,Marine (Seawater),5.0,0.342,0.1,0.3,0.04421,Unfavorable
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Lead-tin solders,"Tin, Tin-Lead, Indium",8,0.03,Rural (Freshwater),0.01,2.011,5.0,0.3,0.000583,Compatible
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,Titanium,Titanium,17,0.63,Rural (Freshwater),0.01,0.415,5.0,10.0,0.002251,Unfavorable
+Cadmium,"Cadmium, Beryllium",3,Inconel (active),"Nickel, Cobalt",16,0.35,Marine (Seawater),5.0,0.204,0.1,2.0,0.032624,Unfavorable
+Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,Graphite,Graphite,20,0.23,Marine (Seawater),5.0,0.308,5.0,10.0,0.004705,Unfavorable
+Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.08,Marine (Seawater),5.0,0.901,1.0,1.0,0.030763,Compatible
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,Nickel (active),"Nickel, Cobalt",16,0.22,Rural (Freshwater),0.01,0.351,5.0,2.0,0.000731,Compatible
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,0.4,Industrial (Acidic Rain),0.1,0.374,0.1,2.0,0.012616,Unfavorable
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,Graphite,Graphite,20,0.31,Rural (Freshwater),0.01,27.039,1.0,10.0,0.075686,Unfavorable
+Copper,"Copper-High Nickel, Monel",15,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.36,Marine (Seawater),5.0,7.718,1.0,10.0,0.256795,Compatible
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Nickel (active),"Nickel, Cobalt",16,0.18,Industrial (Acidic Rain),0.1,7.214,5.0,2.0,0.078736,Compatible
+Cadmium,"Cadmium, Beryllium",3,Lead-tin solders,"Tin, Tin-Lead, Indium",8,0.2,Marine (Seawater),5.0,0.945,0.1,0.3,0.290216,Compatible
+Zinc,"Zinc, Zinc Coating",2,Chlorimet 2,"Nickel, Cobalt",16,0.75,Marine (Seawater),5.0,3.218,0.1,2.0,1.035389,Unfavorable
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.16,Marine (Seawater),5.0,0.263,2.0,1.0,0.012586,Compatible
+Magnesium and magnesium alloys,Magnesium,1,Cadmium,"Cadmium, Beryllium",3,0.9,Rural (Freshwater),0.01,0.109,0.1,0.1,0.000919,Unfavorable
+Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,Titanium,Titanium,17,0.29,Marine (Seawater),5.0,0.569,1.0,10.0,0.01543,Compatible
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.2,Marine (Seawater),5.0,1.505,0.1,5.0,0.058159,Unfavorable
+Lead,Lead,7,Chlorimet 2,"Nickel, Cobalt",16,0.19,Marine (Seawater),5.0,11.513,0.3,2.0,0.840413,Unfavorable
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,0.1,Rural (Freshwater),0.01,0.514,2.0,1.0,0.000481,Compatible
+Lead-tin solders,"Tin, Tin-Lead, Indium",8,Tin,"Tin, Tin-Lead, Indium",8,0.08,Rural (Freshwater),0.01,3.748,0.3,0.3,0.003057,Compatible
+Silver,Silver,18,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.12,Marine (Seawater),5.0,0.549,10.0,10.0,0.003089,Compatible
+Lead-tin solders,"Tin, Tin-Lead, Indium",8,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.46,Marine (Seawater),5.0,2.622,0.3,2.0,0.494785,Unfavorable
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,Silver,Silver,18,0.61,Rural (Freshwater),0.01,0.207,5.0,10.0,0.001047,Unfavorable
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.39,Industrial (Acidic Rain),0.1,0.75,5.0,1.0,0.01922,Unfavorable
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Nickel (passive),"Nickel, Cobalt",16,0.41,Industrial (Acidic Rain),0.1,0.989,5.0,2.0,0.022224,Compatible
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,Nickel (passive),"Nickel, Cobalt",16,0.45,Industrial (Acidic Rain),0.1,0.303,5.0,2.0,0.008242,Unfavorable
+Zinc,"Zinc, Zinc Coating",2,Titanium,Titanium,17,1.09,Marine (Seawater),5.0,0.67,0.1,10.0,0.072308,Unfavorable
+Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.32,Rural (Freshwater),0.01,3.444,5.0,10.0,0.009384,Unfavorable
+Cast iron,"Steels-Carbon, Low Alloy",6,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.43,Marine (Seawater),5.0,3.301,0.3,1.0,0.96917,Unfavorable
+Lead,Lead,7,"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,0.14,Rural (Freshwater),0.01,11.278,0.3,2.0,0.017314,Compatible
+Lead-tin solders,"Tin, Tin-Lead, Indium",8,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.45,Industrial (Acidic Rain),0.1,1.71,0.3,5.0,0.053956,Compatible
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Titanium,Titanium,17,0.75,Marine (Seawater),5.0,1.613,0.1,10.0,0.120552,Unfavorable
+Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.15,Industrial (Acidic Rain),0.1,18.247,1.0,5.0,0.171608,Compatible
+Zinc,"Zinc, Zinc Coating",2,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.95,Rural (Freshwater),0.01,2.857,0.1,5.0,0.027742,Unfavorable
+Cast iron,"Steels-Carbon, Low Alloy",6,18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.08,Rural (Freshwater),0.01,7.612,0.3,5.0,0.005519,Compatible
+Inconel (active),"Nickel, Cobalt",16,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.57,Marine (Seawater),5.0,0.112,2.0,10.0,0.005078,Compatible
+Silver solder,Silver,18,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.06,Rural (Freshwater),0.01,0.308,10.0,5.0,0.000153,Compatible
+Steel or iron,"Steels-Carbon, Low Alloy",6,Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,0.06,Marine (Seawater),5.0,16.849,0.3,0.3,1.21724,Compatible
+"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,Nickel (passive),"Nickel, Cobalt",16,0.03,Rural (Freshwater),0.01,1.647,1.0,2.0,0.000453,Compatible
+18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.45,Rural (Freshwater),0.01,0.399,5.0,5.0,0.001552,Compatible
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,0.14,Marine (Seawater),5.0,0.678,0.1,0.3,0.15329,Unfavorable
+"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.2,Industrial (Acidic Rain),0.1,0.702,2.0,10.0,0.006368,Compatible
+Lead-tin solders,"Tin, Tin-Lead, Indium",8,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.42,Rural (Freshwater),0.01,0.679,0.3,5.0,0.002814,Unfavorable
+Cadmium,"Cadmium, Beryllium",3,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.66,Marine (Seawater),5.0,0.431,0.1,2.0,0.127946,Unfavorable
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,0.14,Industrial (Acidic Rain),0.1,3.032,0.1,0.3,0.038944,Unfavorable
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.29,Rural (Freshwater),0.01,1.427,2.0,2.0,0.004082,Compatible
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,0.5,Rural (Freshwater),0.01,0.155,0.1,1.0,0.000708,Unfavorable
+"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,Silver,Silver,18,0.16,Industrial (Acidic Rain),0.1,5.28,1.0,10.0,0.040754,Compatible
+"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,Graphite,Graphite,20,0.17,Rural (Freshwater),0.01,2.899,2.0,10.0,0.004321,Compatible
+"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,Silver solder,Silver,18,0.03,Industrial (Acidic Rain),0.1,0.461,1.0,10.0,0.000611,Compatible
+Chlorimet 2,"Nickel, Cobalt",16,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.24,Industrial (Acidic Rain),0.1,0.299,2.0,2.0,0.004971,Compatible
+Steel or iron,"Steels-Carbon, Low Alloy",6,Silver,Silver,18,0.65,Marine (Seawater),5.0,3.895,0.3,10.0,0.270348,Unfavorable
+Copper,"Copper-High Nickel, Monel",15,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.1,Marine (Seawater),5.0,0.426,1.0,5.0,0.006657,Unfavorable
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.75,Industrial (Acidic Rain),0.1,3.301,5.0,10.0,0.099484,Unfavorable
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.34,Marine (Seawater),5.0,2.883,1.0,10.0,0.086243,Compatible
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Silver,Silver,18,0.73,Rural (Freshwater),0.01,0.238,0.1,10.0,0.001555,Unfavorable
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,0.46,Marine (Seawater),5.0,0.322,0.1,1.0,0.115686,Unfavorable
+Zinc,"Zinc, Zinc Coating",2,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.98,Rural (Freshwater),0.01,6.96,0.1,5.0,0.060269,Unfavorable
+"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.0,Marine (Seawater),5.0,1.025,2.0,2.0,0.0,Compatible
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.73,Rural (Freshwater),0.01,3.519,5.0,10.0,0.0228,Unfavorable
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Titanium,Titanium,17,0.59,Marine (Seawater),5.0,1.318,5.0,10.0,0.050986,Compatible
+"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,Silver solder,Silver,18,0.03,Industrial (Acidic Rain),0.1,0.867,1.0,10.0,0.001106,Compatible
+Zinc,"Zinc, Zinc Coating",2,Gold,"Palladium, Rhodium, Gold, Platinum",19,1.19,Marine (Seawater),5.0,0.725,0.1,10.0,0.075812,Unfavorable
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Silver solder,Silver,18,0.39,Marine (Seawater),5.0,0.4,5.0,10.0,0.010039,Compatible
+Zinc,"Zinc, Zinc Coating",2,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.99,Rural (Freshwater),0.01,1.18,0.1,2.0,0.010749,Unfavorable
+Lead-tin solders,"Tin, Tin-Lead, Indium",8,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.32,Marine (Seawater),5.0,0.671,0.3,1.0,0.143232,Unfavorable
+Chlorimet 2,"Nickel, Cobalt",16,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.44,Rural (Freshwater),0.01,5.249,2.0,10.0,0.020432,Unfavorable
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.03,Industrial (Acidic Rain),0.1,0.121,1.0,1.0,0.000347,Compatible
+Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,Copper,"Copper-High Nickel, Monel",15,0.03,Rural (Freshwater),0.01,6.183,1.0,1.0,0.001889,Compatible
+Nickel (active),"Nickel, Cobalt",16,"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,0.02,Industrial (Acidic Rain),0.1,2.347,2.0,2.0,0.002903,Compatible
+"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.02,Marine (Seawater),5.0,0.174,1.0,1.0,0.001647,Compatible
+18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.36,Industrial (Acidic Rain),0.1,0.286,5.0,1.0,0.006498,Compatible
+Graphite,Graphite,20,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.03,Industrial (Acidic Rain),0.1,3.204,10.0,10.0,0.00321,Compatible
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.16,Marine (Seawater),5.0,0.525,2.0,1.0,0.026145,Compatible
+Cadmium,"Cadmium, Beryllium",3,Graphite,Graphite,20,0.83,Marine (Seawater),5.0,0.963,0.1,10.0,0.079925,Unfavorable
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.52,Industrial (Acidic Rain),0.1,5.756,0.1,1.0,0.250893,Unfavorable
+Zinc,"Zinc, Zinc Coating",2,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.99,Rural (Freshwater),0.01,0.159,0.1,2.0,0.001642,Unfavorable
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,0.57,Industrial (Acidic Rain),0.1,0.136,0.1,1.0,0.007183,Unfavorable
+Copper,"Copper-High Nickel, Monel",15,Silver,Silver,18,0.24,Marine (Seawater),5.0,5.085,1.0,10.0,0.105643,Compatible
+"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.2,Rural (Freshwater),0.01,35.971,2.0,10.0,0.063583,Compatible
+Chlorimet 2,"Nickel, Cobalt",16,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.2,Rural (Freshwater),0.01,25.164,2.0,5.0,0.047996,Compatible
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,Silver solder,Silver,18,0.19,Industrial (Acidic Rain),0.1,1.114,2.0,10.0,0.009357,Compatible
+Magnesium and magnesium alloys,Magnesium,1,Tin,"Tin, Tin-Lead, Indium",8,1.18,Industrial (Acidic Rain),0.1,4.064,0.1,0.3,0.444441,Unfavorable
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Copper,"Copper-High Nickel, Monel",15,0.33,Rural (Freshwater),0.01,2.096,5.0,1.0,0.006769,Unfavorable
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,Inconel (active),"Nickel, Cobalt",16,0.2,Rural (Freshwater),0.01,14.544,0.3,2.0,0.028233,Compatible
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.16,Industrial (Acidic Rain),0.1,3.679,2.0,1.0,0.042685,Compatible
+"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,Silver,Silver,18,0.19,Industrial (Acidic Rain),0.1,63.553,1.0,10.0,0.561888,Compatible
+Nickel (active),"Nickel, Cobalt",16,Nickel (passive),"Nickel, Cobalt",16,0.23,Rural (Freshwater),0.01,0.758,2.0,2.0,0.001655,Compatible
+Lead-tin solders,"Tin, Tin-Lead, Indium",8,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.66,Marine (Seawater),5.0,0.5,0.3,10.0,0.032285,Unfavorable
+Cast iron,"Steels-Carbon, Low Alloy",6,Nickel (active),"Nickel, Cobalt",16,0.26,Marine (Seawater),5.0,1.404,0.3,2.0,0.144241,Unfavorable
+Inconel (active),"Nickel, Cobalt",16,Silver,Silver,18,0.39,Rural (Freshwater),0.01,0.106,2.0,10.0,0.000387,Unfavorable
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.77,Marine (Seawater),5.0,12.377,0.3,10.0,0.830359,Unfavorable
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,Silver,Silver,18,0.37,Industrial (Acidic Rain),0.1,3.918,2.0,10.0,0.064634,Compatible
+Lead-tin solders,"Tin, Tin-Lead, Indium",8,Silver solder,Silver,18,0.36,Rural (Freshwater),0.01,0.664,0.3,10.0,0.002238,Unfavorable
+18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Inconel (active),"Nickel, Cobalt",16,0.18,Marine (Seawater),5.0,0.371,5.0,2.0,0.009277,Compatible
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,0.2,Marine (Seawater),5.0,0.08,5.0,2.0,0.00211,Compatible
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,0.06,Industrial (Acidic Rain),0.1,1.261,1.0,1.0,0.006155,Compatible
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.4,Industrial (Acidic Rain),0.1,2.405,5.0,1.0,0.058333,Unfavorable
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.71,Rural (Freshwater),0.01,2.146,0.3,10.0,0.01306,Unfavorable
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.65,Rural (Freshwater),0.01,1.201,0.1,5.0,0.008094,Unfavorable
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,0.1,Rural (Freshwater),0.01,0.727,2.0,1.0,0.000609,Compatible
+Chlorimet 2,"Nickel, Cobalt",16,Graphite,Graphite,20,0.41,Rural (Freshwater),0.01,0.87,2.0,10.0,0.003319,Unfavorable
+Tin,"Tin, Tin-Lead, Indium",8,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.38,Rural (Freshwater),0.01,0.409,0.3,2.0,0.001565,Unfavorable
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,0.57,Industrial (Acidic Rain),0.1,1.723,0.1,1.0,0.090116,Unfavorable
+Steel or iron,"Steels-Carbon, Low Alloy",6,Chlorimet 2,"Nickel, Cobalt",16,0.33,Industrial (Acidic Rain),0.1,2.949,0.3,2.0,0.075045,Unfavorable
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.71,Rural (Freshwater),0.01,0.872,0.3,10.0,0.005692,Unfavorable
+Steel or iron,"Steels-Carbon, Low Alloy",6,Copper,"Copper-High Nickel, Monel",15,0.41,Rural (Freshwater),0.01,4.624,0.3,1.0,0.017853,Unfavorable
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.2,Industrial (Acidic Rain),0.1,2.024,0.1,5.0,0.02754,Unfavorable
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,Nickel (active),"Nickel, Cobalt",16,0.22,Industrial (Acidic Rain),0.1,9.934,5.0,2.0,0.140737,Unfavorable
+Cadmium,"Cadmium, Beryllium",3,Nickel (passive),"Nickel, Cobalt",16,0.58,Marine (Seawater),5.0,2.843,0.1,2.0,0.719874,Unfavorable
+Cast iron,"Steels-Carbon, Low Alloy",6,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.43,Rural (Freshwater),0.01,10.93,0.3,1.0,0.046709,Unfavorable
+"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.2,Industrial (Acidic Rain),0.1,3.329,2.0,10.0,0.030812,Compatible
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.34,Industrial (Acidic Rain),0.1,0.539,1.0,10.0,0.009194,Compatible
+Nickel (active),"Nickel, Cobalt",16,Graphite,Graphite,20,0.48,Marine (Seawater),5.0,7.493,2.0,10.0,0.311913,Unfavorable
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,Nickel (passive),"Nickel, Cobalt",16,0.43,Marine (Seawater),5.0,0.707,0.3,2.0,0.115003,Unfavorable
+Silver solder,Silver,18,Silver,Silver,18,0.18,Industrial (Acidic Rain),0.1,0.202,10.0,10.0,0.001216,Compatible
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.14,Marine (Seawater),5.0,12.431,1.0,2.0,0.563589,Compatible
+Magnesium and magnesium alloys,Magnesium,1,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,1.5,Marine (Seawater),5.0,0.5,0.1,5.0,0.14216,Unfavorable
+Copper,"Copper-High Nickel, Monel",15,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.1,Rural (Freshwater),0.01,0.942,1.0,5.0,0.000859,Compatible
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.75,Rural (Freshwater),0.01,1.04,5.0,10.0,0.006369,Unfavorable
+"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.31,Industrial (Acidic Rain),0.1,2.047,1.0,10.0,0.031523,Compatible
+"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,Titanium,Titanium,17,0.21,Industrial (Acidic Rain),0.1,0.255,1.0,10.0,0.002769,Compatible
+Nickel (active),"Nickel, Cobalt",16,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.31,Rural (Freshwater),0.01,7.514,2.0,2.0,0.02303,Compatible
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,Nickel (active),"Nickel, Cobalt",16,0.2,Rural (Freshwater),0.01,0.495,0.3,2.0,0.001005,Compatible
+"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,Graphite,Graphite,20,0.3,Marine (Seawater),5.0,0.447,1.0,10.0,0.011918,Unfavorable
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,0.06,Industrial (Acidic Rain),0.1,0.15,1.0,1.0,0.000722,Compatible
+"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.39,Rural (Freshwater),0.01,0.069,1.0,10.0,0.000265,Unfavorable
+Cast iron,"Steels-Carbon, Low Alloy",6,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.83,Marine (Seawater),5.0,7.96,0.3,10.0,0.62582,Unfavorable
+Nickel (active),"Nickel, Cobalt",16,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.27,Marine (Seawater),5.0,4.63,2.0,5.0,0.175268,Compatible
+Cast iron,"Steels-Carbon, Low Alloy",6,Steel or iron,"Steels-Carbon, Low Alloy",6,0.0,Rural (Freshwater),0.01,0.149,0.3,0.3,0.0,Compatible
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.5,Marine (Seawater),5.0,2.391,0.3,5.0,0.210829,Unfavorable
+Lead,Lead,7,Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,0.24,Rural (Freshwater),0.01,4.298,0.3,1.0,0.011288,Compatible
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.4,Marine (Seawater),5.0,2.237,5.0,1.0,0.147096,Unfavorable
+Magnesium and magnesium alloys,Magnesium,1,Nickel (passive),"Nickel, Cobalt",16,1.48,Marine (Seawater),5.0,6.037,0.1,2.0,3.624232,Unfavorable
+"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,Silver,Silver,18,0.16,Rural (Freshwater),0.01,0.437,1.0,10.0,0.00062,Compatible
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,Chlorimet 2,"Nickel, Cobalt",16,0.05,Industrial (Acidic Rain),0.1,2.867,2.0,2.0,0.009978,Compatible
+"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,Nickel (passive),"Nickel, Cobalt",16,0.05,Rural (Freshwater),0.01,0.925,1.0,2.0,0.000431,Compatible
+Tin,"Tin, Tin-Lead, Indium",8,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.38,Marine (Seawater),5.0,0.11,0.3,2.0,0.017493,Unfavorable
+Lead,Lead,7,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.3,Rural (Freshwater),0.01,5.709,0.3,1.0,0.016011,Unfavorable
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.38,Industrial (Acidic Rain),0.1,2.511,0.3,1.0,0.07874,Unfavorable
+Chlorimet 2,"Nickel, Cobalt",16,Silver,Silver,18,0.32,Marine (Seawater),5.0,5.192,2.0,10.0,0.133523,Compatible
+"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.11,Industrial (Acidic Rain),0.1,4.478,1.0,2.0,0.039463,Compatible
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,Silver solder,Silver,18,0.41,Industrial (Acidic Rain),0.1,0.247,0.3,10.0,0.004836,Unfavorable
+Zinc,"Zinc, Zinc Coating",2,Lead-tin solders,"Tin, Tin-Lead, Indium",8,0.53,Industrial (Acidic Rain),0.1,0.766,0.1,0.3,0.039523,Unfavorable
+Cadmium,"Cadmium, Beryllium",3,"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,0.01,Marine (Seawater),5.0,2.763,0.1,0.1,0.068506,Compatible
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,Nickel (active),"Nickel, Cobalt",16,0.22,Marine (Seawater),5.0,0.157,5.0,2.0,0.004961,Unfavorable
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.65,Marine (Seawater),5.0,17.588,0.1,2.0,4.730381,Unfavorable
+Zinc,"Zinc, Zinc Coating",2,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.99,Industrial (Acidic Rain),0.1,0.62,0.1,2.0,0.047854,Unfavorable
+"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,0.05,Marine (Seawater),5.0,9.539,1.0,1.0,0.203493,Compatible
+Zinc,"Zinc, Zinc Coating",2,Nickel (passive),"Nickel, Cobalt",16,0.91,Industrial (Acidic Rain),0.1,7.659,0.1,2.0,0.584361,Unfavorable
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.75,Marine (Seawater),5.0,2.397,5.0,10.0,0.11971,Unfavorable
+Cadmium,"Cadmium, Beryllium",3,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.55,Marine (Seawater),5.0,0.694,0.1,1.0,0.322415,Unfavorable
+Cast iron,"Steels-Carbon, Low Alloy",6,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.57,Rural (Freshwater),0.01,0.021,0.3,2.0,0.000134,Unfavorable
+Magnesium and magnesium alloys,Magnesium,1,Chlorimet 2,"Nickel, Cobalt",16,1.32,Marine (Seawater),5.0,15.92,0.1,2.0,8.812072,Unfavorable
+Cast iron,"Steels-Carbon, Low Alloy",6,Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,0.04,Industrial (Acidic Rain),0.1,0.107,0.3,5.0,0.000281,Compatible
+Graphite,Graphite,20,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.09,Marine (Seawater),5.0,9.2,10.0,10.0,0.043377,Compatible
+Tin,"Tin, Tin-Lead, Indium",8,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.37,Rural (Freshwater),0.01,1.562,0.3,5.0,0.00513,Unfavorable
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.4,Rural (Freshwater),0.01,15.221,1.0,10.0,0.053446,Unfavorable
+"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,Graphite,Graphite,20,0.17,Rural (Freshwater),0.01,2.503,2.0,10.0,0.003632,Compatible
+Copper,"Copper-High Nickel, Monel",15,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.1,Industrial (Acidic Rain),0.1,0.949,1.0,5.0,0.005671,Unfavorable
+Magnesium and magnesium alloys,Magnesium,1,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,1.56,Industrial (Acidic Rain),0.1,1.173,0.1,2.0,0.151344,Unfavorable
+Zinc,"Zinc, Zinc Coating",2,Silver,Silver,18,1.07,Marine (Seawater),5.0,1.967,0.1,10.0,0.19401,Unfavorable
+Lead-tin solders,"Tin, Tin-Lead, Indium",8,Nickel (passive),"Nickel, Cobalt",16,0.38,Industrial (Acidic Rain),0.1,19.036,0.3,2.0,0.598954,Unfavorable
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.34,Rural (Freshwater),0.01,2.649,1.0,10.0,0.007878,Unfavorable
+Steel or iron,"Steels-Carbon, Low Alloy",6,18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.08,Marine (Seawater),5.0,0.173,0.3,5.0,0.00266,Unfavorable
+Magnesium and magnesium alloys,Magnesium,1,Gold,"Palladium, Rhodium, Gold, Platinum",19,1.76,Marine (Seawater),5.0,0.332,0.1,10.0,0.056639,Unfavorable
+Magnesium and magnesium alloys,Magnesium,1,18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,1.07,Rural (Freshwater),0.01,0.708,0.1,5.0,0.006931,Unfavorable
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.49,Industrial (Acidic Rain),0.1,0.392,5.0,2.0,0.012101,Compatible
+"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,Silver,Silver,18,0.08,Industrial (Acidic Rain),0.1,2.317,2.0,10.0,0.008308,Compatible
+"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.1,Industrial (Acidic Rain),0.1,1.859,1.0,5.0,0.012052,Compatible
+"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.1,Rural (Freshwater),0.01,0.66,1.0,5.0,0.000614,Compatible
+Inconel (active),"Nickel, Cobalt",16,Titanium,Titanium,17,0.41,Industrial (Acidic Rain),0.1,0.9,2.0,10.0,0.017318,Compatible
+Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,Titanium,Titanium,17,0.16,Marine (Seawater),5.0,1.493,5.0,10.0,0.01461,Unfavorable
+"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.11,Industrial (Acidic Rain),0.1,0.808,1.0,2.0,0.00725,Compatible
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Copper,"Copper-High Nickel, Monel",15,0.49,Rural (Freshwater),0.01,7.592,0.1,1.0,0.036373,Unfavorable
+"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.39,Marine (Seawater),5.0,0.828,1.0,10.0,0.028047,Compatible
+Copper,"Copper-High Nickel, Monel",15,"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,0.08,Rural (Freshwater),0.01,1.296,1.0,1.0,0.000955,Compatible
+Steel or iron,"Steels-Carbon, Low Alloy",6,Chlorimet 2,"Nickel, Cobalt",16,0.33,Industrial (Acidic Rain),0.1,1.829,0.3,2.0,0.043213,Unfavorable
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Lead,Lead,7,0.22,Rural (Freshwater),0.01,0.068,0.1,0.3,0.000151,Compatible
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.65,Marine (Seawater),5.0,0.128,0.1,5.0,0.016394,Unfavorable
+"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,Silver solder,Silver,18,0.03,Marine (Seawater),5.0,0.45,1.0,10.0,0.001161,Compatible
+Nickel (active),"Nickel, Cobalt",16,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.31,Marine (Seawater),5.0,0.375,2.0,2.0,0.027924,Compatible
+Magnesium and magnesium alloys,Magnesium,1,Lead-tin solders,"Tin, Tin-Lead, Indium",8,1.1,Industrial (Acidic Rain),0.1,0.213,0.1,0.3,0.022446,Unfavorable
+Nickel (active),"Nickel, Cobalt",16,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.31,Marine (Seawater),5.0,0.866,2.0,2.0,0.061918,Compatible
+Cadmium,"Cadmium, Beryllium",3,18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.17,Marine (Seawater),5.0,8.472,0.1,5.0,0.262347,Unfavorable
+Magnesium and magnesium alloys,Magnesium,1,Zinc,"Zinc, Zinc Coating",2,0.57,Marine (Seawater),5.0,0.211,0.1,0.1,0.334539,Unfavorable
+Steel or iron,"Steels-Carbon, Low Alloy",6,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.51,Industrial (Acidic Rain),0.1,0.42,0.3,5.0,0.01361,Compatible
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,0.43,Rural (Freshwater),0.01,0.084,0.3,1.0,0.00037,Unfavorable
+Cast iron,"Steels-Carbon, Low Alloy",6,Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,0.06,Industrial (Acidic Rain),0.1,2.674,0.3,0.3,0.015262,Compatible
+Cadmium,"Cadmium, Beryllium",3,"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,0.37,Marine (Seawater),5.0,5.656,0.1,2.0,0.885885,Unfavorable
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Lead-tin solders,"Tin, Tin-Lead, Indium",8,0.03,Industrial (Acidic Rain),0.1,12.319,5.0,0.3,0.024745,Compatible
+Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,Titanium,Titanium,17,0.16,Industrial (Acidic Rain),0.1,0.112,5.0,10.0,0.000737,Unfavorable
+"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.13,Marine (Seawater),5.0,5.741,1.0,2.0,0.205955,Compatible
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.0,Industrial (Acidic Rain),0.1,0.23,5.0,5.0,0.0,Compatible
+18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.04,Rural (Freshwater),0.01,0.192,5.0,2.0,7.4e-05,Compatible
+Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,0.11,Industrial (Acidic Rain),0.1,11.937,1.0,1.0,0.112684,Compatible
+"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,Graphite,Graphite,20,0.17,Rural (Freshwater),0.01,2.446,2.0,10.0,0.003563,Compatible
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.79,Industrial (Acidic Rain),0.1,0.143,5.0,10.0,0.004379,Unfavorable
+Nickel (active),"Nickel, Cobalt",16,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.3,Industrial (Acidic Rain),0.1,1.177,2.0,5.0,0.019005,Compatible
+Chlorimet 2,"Nickel, Cobalt",16,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.23,Industrial (Acidic Rain),0.1,14.282,2.0,5.0,0.186169,Compatible
+Lead-tin solders,"Tin, Tin-Lead, Indium",8,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.35,Industrial (Acidic Rain),0.1,1.135,0.3,1.0,0.03414,Unfavorable
+Silver,Silver,18,Titanium,Titanium,17,0.02,Marine (Seawater),5.0,3.516,10.0,10.0,0.003297,Compatible
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.4,Rural (Freshwater),0.01,0.909,5.0,1.0,0.003254,Unfavorable
+Magnesium and magnesium alloys,Magnesium,1,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,1.56,Marine (Seawater),5.0,0.588,0.1,2.0,0.430154,Unfavorable
+Lead,Lead,7,Nickel (passive),"Nickel, Cobalt",16,0.35,Industrial (Acidic Rain),0.1,46.523,0.3,2.0,1.207681,Unfavorable
+Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,Silver,Silver,18,0.14,Rural (Freshwater),0.01,5.438,5.0,10.0,0.007252,Compatible
+Inconel (active),"Nickel, Cobalt",16,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.18,Rural (Freshwater),0.01,0.437,2.0,1.0,0.000787,Compatible
+Inconel (active),"Nickel, Cobalt",16,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.2,Industrial (Acidic Rain),0.1,9.599,2.0,1.0,0.141835,Compatible
+Zinc,"Zinc, Zinc Coating",2,"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,0.34,Rural (Freshwater),0.01,0.591,0.1,0.1,0.001965,Unfavorable
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Titanium,Titanium,17,0.59,Rural (Freshwater),0.01,1.416,5.0,10.0,0.007021,Unfavorable
+Steel or iron,"Steels-Carbon, Low Alloy",6,Graphite,Graphite,20,0.74,Rural (Freshwater),0.01,0.751,0.3,10.0,0.005225,Unfavorable
+Magnesium and magnesium alloys,Magnesium,1,Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,1.03,Marine (Seawater),5.0,0.04,0.1,5.0,0.00791,Unfavorable
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,Silver solder,Silver,18,0.19,Marine (Seawater),5.0,0.926,2.0,10.0,0.014151,Compatible
+Tin,"Tin, Tin-Lead, Indium",8,Silver solder,Silver,18,0.28,Marine (Seawater),5.0,0.185,0.3,10.0,0.004954,Unfavorable
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,Silver,Silver,18,0.61,Industrial (Acidic Rain),0.1,0.062,5.0,10.0,0.001441,Unfavorable
+"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,Graphite,Graphite,20,0.3,Industrial (Acidic Rain),0.1,0.699,1.0,10.0,0.010488,Unfavorable
+Silver,Silver,18,Graphite,Graphite,20,0.09,Rural (Freshwater),0.01,0.246,10.0,10.0,0.000189,Compatible
+Silver,Silver,18,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.12,Rural (Freshwater),0.01,0.363,10.0,10.0,0.000385,Compatible
+Nickel (passive),"Nickel, Cobalt",16,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.02,Industrial (Acidic Rain),0.1,0.328,2.0,5.0,0.000368,Unfavorable
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.03,Industrial (Acidic Rain),0.1,0.65,1.0,1.0,0.001623,Compatible
+Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.18,Marine (Seawater),5.0,0.751,1.0,5.0,0.021555,Compatible
+Cast iron,"Steels-Carbon, Low Alloy",6,Titanium,Titanium,17,0.67,Rural (Freshwater),0.01,0.169,0.3,10.0,0.001104,Unfavorable
+Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.06,Marine (Seawater),5.0,1.255,5.0,2.0,0.010251,Unfavorable
+Cadmium,"Cadmium, Beryllium",3,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.55,Rural (Freshwater),0.01,0.721,0.1,1.0,0.003931,Unfavorable
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.15,Rural (Freshwater),0.01,0.177,2.0,1.0,0.00027,Compatible
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,Chlorimet 2,"Nickel, Cobalt",16,0.27,Industrial (Acidic Rain),0.1,0.18,0.3,2.0,0.003989,Unfavorable
+Cadmium,"Cadmium, Beryllium",3,Tin,"Tin, Tin-Lead, Indium",8,0.28,Marine (Seawater),5.0,1.413,0.1,0.3,0.59508,Compatible
+Cadmium,"Cadmium, Beryllium",3,Silver solder,Silver,18,0.56,Rural (Freshwater),0.01,0.161,0.1,10.0,0.000835,Unfavorable
+Copper,"Copper-High Nickel, Monel",15,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.15,Rural (Freshwater),0.01,0.226,1.0,5.0,0.000346,Compatible
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.91,Industrial (Acidic Rain),0.1,0.203,0.1,10.0,0.009102,Unfavorable
+Chlorimet 2,"Nickel, Cobalt",16,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.5,Industrial (Acidic Rain),0.1,9.346,2.0,10.0,0.20647,Compatible
+Nickel (active),"Nickel, Cobalt",16,Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,0.12,Industrial (Acidic Rain),0.1,1.459,2.0,1.0,0.013021,Compatible
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.18,Rural (Freshwater),0.01,0.06,2.0,1.0,0.000103,Compatible
+Silver solder,Silver,18,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.09,Marine (Seawater),5.0,0.281,10.0,5.0,0.001716,Compatible
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Graphite,Graphite,20,0.86,Marine (Seawater),5.0,7.116,0.1,10.0,0.614579,Unfavorable
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,Graphite,Graphite,20,0.31,Marine (Seawater),5.0,0.706,1.0,10.0,0.020681,Unfavorable
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.36,Industrial (Acidic Rain),0.1,27.774,5.0,1.0,0.60717,Compatible
+Cadmium,"Cadmium, Beryllium",3,Tin,"Tin, Tin-Lead, Indium",8,0.28,Rural (Freshwater),0.01,3.298,0.1,0.3,0.008822,Unfavorable
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,Tin,"Tin, Tin-Lead, Indium",8,0.13,Rural (Freshwater),0.01,0.462,0.3,0.3,0.000625,Compatible
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Nickel (active),"Nickel, Cobalt",16,0.18,Industrial (Acidic Rain),0.1,31.725,5.0,2.0,0.353393,Compatible
+Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.15,Industrial (Acidic Rain),0.1,0.767,1.0,5.0,0.007397,Compatible
+Chlorimet 2,"Nickel, Cobalt",16,Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,0.05,Rural (Freshwater),0.01,1.171,2.0,1.0,0.000585,Compatible
+18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.48,Rural (Freshwater),0.01,3.176,5.0,5.0,0.013346,Compatible
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.35,Marine (Seawater),5.0,1.576,5.0,1.0,0.085827,Compatible
+Steel or iron,"Steels-Carbon, Low Alloy",6,"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,0.28,Marine (Seawater),5.0,5.321,0.3,2.0,0.573216,Unfavorable
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.47,Marine (Seawater),5.0,0.672,0.3,5.0,0.057976,Unfavorable
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.53,Rural (Freshwater),0.01,0.168,5.0,2.0,0.000778,Unfavorable
+Silver solder,Silver,18,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.3,Marine (Seawater),5.0,0.938,10.0,10.0,0.01396,Compatible
+Gold,"Palladium, Rhodium, Gold, Platinum",19,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.06,Industrial (Acidic Rain),0.1,4.022,10.0,10.0,0.007577,Compatible
+"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.2,Industrial (Acidic Rain),0.1,1.341,2.0,10.0,0.012006,Compatible
+Nickel (passive),"Nickel, Cobalt",16,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.04,Marine (Seawater),5.0,0.372,2.0,5.0,0.00212,Compatible
+Zinc,"Zinc, Zinc Coating",2,Gold,"Palladium, Rhodium, Gold, Platinum",19,1.19,Rural (Freshwater),0.01,2.513,0.1,10.0,0.027617,Unfavorable
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,Copper,"Copper-High Nickel, Monel",15,0.35,Industrial (Acidic Rain),0.1,0.367,0.3,1.0,0.011662,Unfavorable
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.37,Marine (Seawater),5.0,0.07,0.3,1.0,0.016889,Unfavorable
+Inconel (active),"Nickel, Cobalt",16,Nickel (passive),"Nickel, Cobalt",16,0.23,Rural (Freshwater),0.01,0.978,2.0,2.0,0.002397,Compatible
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,Titanium,Titanium,17,0.39,Rural (Freshwater),0.01,1.005,2.0,10.0,0.003501,Unfavorable
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.25,Rural (Freshwater),0.01,1.11,2.0,5.0,0.002324,Compatible
+Steel or iron,"Steels-Carbon, Low Alloy",6,Lead,Lead,7,0.14,Marine (Seawater),5.0,0.828,0.3,0.3,0.145249,Compatible
+Magnesium and magnesium alloys,Magnesium,1,Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,0.87,Marine (Seawater),5.0,1.572,0.1,0.1,3.688483,Unfavorable
+Zinc,"Zinc, Zinc Coating",2,18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.5,Marine (Seawater),5.0,0.2,0.1,5.0,0.019712,Unfavorable
+Cadmium,"Cadmium, Beryllium",3,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.92,Industrial (Acidic Rain),0.1,7.116,0.1,10.0,0.288101,Unfavorable
+Copper,"Copper-High Nickel, Monel",15,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.12,Rural (Freshwater),0.01,8.22,1.0,5.0,0.009552,Compatible
+18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Nickel (active),"Nickel, Cobalt",16,0.18,Marine (Seawater),5.0,4.483,5.0,2.0,0.116592,Compatible
+"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.08,Marine (Seawater),5.0,3.8,1.0,2.0,0.093187,Compatible
+18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.49,Rural (Freshwater),0.01,0.654,5.0,2.0,0.003136,Unfavorable
+Chlorimet 2,"Nickel, Cobalt",16,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.44,Rural (Freshwater),0.01,5.661,2.0,10.0,0.019445,Unfavorable
+Copper,"Copper-High Nickel, Monel",15,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.1,Marine (Seawater),5.0,0.338,1.0,5.0,0.005498,Unfavorable
+Steel or iron,"Steels-Carbon, Low Alloy",6,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.44,Industrial (Acidic Rain),0.1,0.307,0.3,1.0,0.011314,Unfavorable
+Steel or iron,"Steels-Carbon, Low Alloy",6,Inconel (active),"Nickel, Cobalt",16,0.26,Industrial (Acidic Rain),0.1,8.257,0.3,2.0,0.170335,Unfavorable
+Chlorimet 2,"Nickel, Cobalt",16,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.2,Rural (Freshwater),0.01,3.59,2.0,5.0,0.006078,Compatible
+"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.13,Rural (Freshwater),0.01,50.366,1.0,2.0,0.064612,Compatible
+Lead,Lead,7,"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,0.35,Rural (Freshwater),0.01,3.898,0.3,1.0,0.01391,Unfavorable
+Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,0.11,Rural (Freshwater),0.01,2.331,1.0,1.0,0.002773,Compatible
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,Titanium,Titanium,17,0.24,Marine (Seawater),5.0,0.074,1.0,10.0,0.001548,Compatible
+18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.75,Rural (Freshwater),0.01,3.073,5.0,10.0,0.019855,Unfavorable
+Chlorimet 2,"Nickel, Cobalt",16,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.23,Rural (Freshwater),0.01,0.341,2.0,5.0,0.000754,Compatible
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.14,Marine (Seawater),5.0,0.102,1.0,2.0,0.00458,Compatible
+Nickel (passive),"Nickel, Cobalt",16,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.34,Rural (Freshwater),0.01,0.384,2.0,10.0,0.001058,Unfavorable
+Steel or iron,"Steels-Carbon, Low Alloy",6,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.56,Industrial (Acidic Rain),0.1,0.033,0.3,5.0,0.001174,Unfavorable
+Cast iron,"Steels-Carbon, Low Alloy",6,Tin,"Tin, Tin-Lead, Indium",8,0.19,Rural (Freshwater),0.01,0.211,0.3,0.3,0.000448,Compatible
+Lead,Lead,7,Chlorimet 2,"Nickel, Cobalt",16,0.19,Marine (Seawater),5.0,0.306,0.3,2.0,0.021162,Unfavorable
+Silver,Silver,18,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.12,Marine (Seawater),5.0,0.713,10.0,10.0,0.004127,Compatible
+Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,Silver solder,Silver,18,0.04,Marine (Seawater),5.0,0.015,1.0,10.0,5.1e-05,Compatible
+Cast iron,"Steels-Carbon, Low Alloy",6,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.51,Marine (Seawater),5.0,6.029,0.3,5.0,0.563741,Compatible
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,Silver solder,Silver,18,0.43,Marine (Seawater),5.0,3.48,5.0,10.0,0.093695,Unfavorable
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.59,Marine (Seawater),5.0,3.688,0.1,5.0,0.407045,Unfavorable
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,0.2,Rural (Freshwater),0.01,1.107,5.0,2.0,0.00201,Compatible
+Copper,"Copper-High Nickel, Monel",15,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.16,Rural (Freshwater),0.01,1.918,1.0,2.0,0.003033,Compatible
+Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.45,Rural (Freshwater),0.01,0.301,1.0,10.0,0.001152,Unfavorable
+18-8 Mo SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Inconel (active),"Nickel, Cobalt",16,0.18,Marine (Seawater),5.0,2.039,5.0,2.0,0.053212,Compatible
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.38,Marine (Seawater),5.0,0.115,5.0,1.0,0.006406,Compatible
+Lead,Lead,7,"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,0.14,Rural (Freshwater),0.01,10.641,0.3,2.0,0.015658,Compatible
+Cadmium,"Cadmium, Beryllium",3,Graphite,Graphite,20,0.83,Marine (Seawater),5.0,1.785,0.1,10.0,0.128287,Unfavorable
+Steel or iron,"Steels-Carbon, Low Alloy",6,Cast iron,"Steels-Carbon, Low Alloy",6,0.0,Industrial (Acidic Rain),0.1,13.802,0.3,0.3,0.0,Compatible
+Nickel (active),"Nickel, Cobalt",16,Graphite,Graphite,20,0.48,Marine (Seawater),5.0,2.509,2.0,10.0,0.098769,Unfavorable
+Commercially pure aluminum (1100),"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.68,Industrial (Acidic Rain),0.1,0.033,0.1,5.0,0.001503,Unfavorable
+Nickel (active),"Nickel, Cobalt",16,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.31,Marine (Seawater),5.0,2.84,2.0,2.0,0.203215,Compatible
+Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.26,Industrial (Acidic Rain),0.1,1.184,5.0,10.0,0.012229,Unfavorable
+"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.2,Marine (Seawater),5.0,4.013,2.0,10.0,0.067687,Compatible
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.47,Rural (Freshwater),0.01,0.843,5.0,5.0,0.003504,Compatible
+Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.13,Marine (Seawater),5.0,0.506,1.0,5.0,0.011132,Unfavorable
+Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.19,Industrial (Acidic Rain),0.1,0.693,1.0,2.0,0.0098,Compatible
+Zinc,"Zinc, Zinc Coating",2,Nickel (active),"Nickel, Cobalt",16,0.68,Industrial (Acidic Rain),0.1,0.428,0.1,2.0,0.025341,Unfavorable
+Gold,"Palladium, Rhodium, Gold, Platinum",19,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.06,Rural (Freshwater),0.01,0.752,10.0,10.0,0.000357,Compatible
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,0.2,Marine (Seawater),5.0,0.275,5.0,2.0,0.008167,Compatible
+Cadmium,"Cadmium, Beryllium",3,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.86,Industrial (Acidic Rain),0.1,1.452,0.1,10.0,0.065025,Unfavorable
+Lead,Lead,7,Tin,"Tin, Tin-Lead, Indium",8,0.05,Marine (Seawater),5.0,5.296,0.3,0.3,0.31845,Compatible
+Nickel (passive),"Nickel, Cobalt",16,Platinum,"Palladium, Rhodium, Gold, Platinum",19,0.34,Rural (Freshwater),0.01,7.964,2.0,10.0,0.023082,Unfavorable
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,0.43,Industrial (Acidic Rain),0.1,0.389,0.3,1.0,0.014659,Unfavorable
+Chlorimet 2,"Nickel, Cobalt",16,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.11,Industrial (Acidic Rain),0.1,13.85,2.0,1.0,0.11507,Compatible
+Cadmium,"Cadmium, Beryllium",3,Lead-tin solders,"Tin, Tin-Lead, Indium",8,0.2,Rural (Freshwater),0.01,0.804,0.1,0.3,0.001626,Compatible
+Steel or iron,"Steels-Carbon, Low Alloy",6,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.51,Industrial (Acidic Rain),0.1,0.451,0.3,5.0,0.014387,Compatible
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.39,Rural (Freshwater),0.01,3.329,5.0,1.0,0.011652,Unfavorable
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Copper,"Copper-High Nickel, Monel",15,0.33,Rural (Freshwater),0.01,0.332,5.0,1.0,0.00111,Unfavorable
+Tin,"Tin, Tin-Lead, Indium",8,Titanium,Titanium,17,0.48,Rural (Freshwater),0.01,0.812,0.3,10.0,0.003557,Unfavorable
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,Chlorimet 2,"Nickel, Cobalt",16,0.29,Industrial (Acidic Rain),0.1,0.124,5.0,2.0,0.002149,Unfavorable
+Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.06,Rural (Freshwater),0.01,2.542,5.0,2.0,0.001393,Compatible
+Cast iron,"Steels-Carbon, Low Alloy",6,Bronzes (Cu-Sn),"Brass-High Copper, Bronze-High Copper",14,0.43,Industrial (Acidic Rain),0.1,59.471,0.3,1.0,2.283834,Unfavorable
+Cadmium,"Cadmium, Beryllium",3,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.86,Industrial (Acidic Rain),0.1,24.873,0.1,10.0,1.068939,Unfavorable
+Nickel (active),"Nickel, Cobalt",16,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.2,Rural (Freshwater),0.01,0.134,2.0,1.0,0.000271,Compatible
+Tin,"Tin, Tin-Lead, Indium",8,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.38,Industrial (Acidic Rain),0.1,0.488,0.3,2.0,0.014633,Unfavorable
+Lead,Lead,7,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.42,Rural (Freshwater),0.01,0.511,0.3,5.0,0.002019,Unfavorable
+18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,18-8 Mo SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.03,Rural (Freshwater),0.01,1.887,5.0,5.0,0.000515,Compatible
+"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)","Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum",4,Tin,"Tin, Tin-Lead, Indium",8,0.27,Marine (Seawater),5.0,8.451,0.1,0.3,3.834718,Unfavorable
+Chlorimet 2,"Nickel, Cobalt",16,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.13,Rural (Freshwater),0.01,1.346,2.0,1.0,0.00155,Compatible
+Inconel (active),"Nickel, Cobalt",16,Brasses (Cu-Zn),"Brass-Low Copper, Bronze-Low Copper",13,0.12,Marine (Seawater),5.0,4.467,2.0,1.0,0.163575,Compatible
+Cast iron,"Steels-Carbon, Low Alloy",6,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.44,Marine (Seawater),5.0,2.162,0.3,1.0,0.658073,Unfavorable
+Copper,"Copper-High Nickel, Monel",15,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.36,Rural (Freshwater),0.01,0.124,1.0,10.0,0.000407,Unfavorable
+Lead-tin solders,"Tin, Tin-Lead, Indium",8,"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,0.33,Industrial (Acidic Rain),0.1,6.703,0.3,1.0,0.201341,Unfavorable
+"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)","Copper-High Nickel, Monel",15,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.02,Rural (Freshwater),0.01,0.595,1.0,5.0,0.000114,Compatible
+Chromium SS 13% (active),"St. Steels-Martensitic, Ferritic",9,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)","Nickel, Cobalt",16,0.53,Rural (Freshwater),0.01,1.599,5.0,2.0,0.007909,Unfavorable
+Steel or iron,"Steels-Carbon, Low Alloy",6,Gold,"Palladium, Rhodium, Gold, Platinum",19,0.77,Rural (Freshwater),0.01,1.297,0.3,10.0,0.009188,Unfavorable
+Lead-tin solders,"Tin, Tin-Lead, Indium",8,Chromium SS 11-30% (passive),"St. Steels-Martensitic, Ferritic",9,0.4,Industrial (Acidic Rain),0.1,0.573,0.3,5.0,0.014421,Compatible
+"Hastelloy B (65 Ni, 28 Mo, 6 Fe)","Nickel, Cobalt",16,"Monel (70 Ni, 30 Cu)","Copper-High Nickel, Monel",15,0.18,Industrial (Acidic Rain),0.1,0.122,2.0,1.0,0.001637,Compatible
+Inconel (active),"Nickel, Cobalt",16,Graphite,Graphite,20,0.48,Industrial (Acidic Rain),0.1,0.726,2.0,10.0,0.015518,Unfavorable
+"Cupronickels (60-90 Cu, 40-10 Ni)","Copper-High Nickel, Monel",15,18-8 SS (passive),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,0.09,Marine (Seawater),5.0,3.875,1.0,5.0,0.057585,Compatible
+Lead-tin solders,"Tin, Tin-Lead, Indium",8,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)","Nickel, Cobalt",16,0.46,Marine (Seawater),5.0,0.725,0.3,2.0,0.129784,Unfavorable
+Ni-Resist (high nickel cast iron),"Steels-Carbon, Low Alloy",6,Nickel (active),"Nickel, Cobalt",16,0.2,Rural (Freshwater),0.01,5.901,0.3,2.0,0.011649,Compatible
+18-8 SS (active),"St. Steels-Aust., PH, Super Strength, Heat Resistant",11,Titanium,Titanium,17,0.59,Rural (Freshwater),0.01,0.189,5.0,10.0,0.000959,Unfavorable

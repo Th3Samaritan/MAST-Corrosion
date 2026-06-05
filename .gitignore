@@ -1,0 +1,51 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ========================
+# Virtual Environment
+# ========================
+.venv/
+venv/
+env/
+ENV/
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========================
+# Streamlit
+# ========================
+.streamlit/
+
+# ========================
+# Jupyter
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# Large data (optional local-only)
+# ========================
+# Uncomment if you don't want to track the 4MB+ synthetic dataset:
+# synthetic_galvanic_joints_full_1.csv
+
+# ========================
+# Scanned documents
+# ========================
+*.pdf

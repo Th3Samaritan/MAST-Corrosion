@@ -1,0 +1,37 @@
+Rank,Material,Potential_V_SCE,Group
+1,Platinum,0.22,"Palladium, Rhodium, Gold, Platinum"
+2,Gold,0.16,"Palladium, Rhodium, Gold, Platinum"
+3,Graphite,0.13,Graphite
+4,Titanium,0.06,Titanium
+5,Silver,0.04,Silver
+6,"Chlorimet 3 (62 Ni, 18 Cr, 18 Mo)",-0.04,"Nickel, Cobalt"
+7,"Hastelloy C (62 Ni, 17 Cr, 15 Mo)",-0.04,"Nickel, Cobalt"
+8,18-8 Mo SS (passive),-0.05,"St. Steels-Aust., PH, Super Strength, Heat Resistant"
+9,18-8 SS (passive),-0.08,"St. Steels-Aust., PH, Super Strength, Heat Resistant"
+10,Chromium SS 11-30% (passive),-0.1,"St. Steels-Martensitic, Ferritic"
+11,"Inconel (passive) (80 Ni, 13 Cr, 7 Fe)",-0.12,"Copper-High Nickel, Monel"
+12,Nickel (passive),-0.12,"Nickel, Cobalt"
+13,Silver solder,-0.14,Silver
+14,"Monel (70 Ni, 30 Cu)",-0.15,"Copper-High Nickel, Monel"
+15,"Cupronickels (60-90 Cu, 40-10 Ni)",-0.17,"Copper-High Nickel, Monel"
+16,Bronzes (Cu-Sn),-0.18,"Brass-High Copper, Bronze-High Copper"
+17,Copper,-0.2,"Copper-High Nickel, Monel"
+18,Brasses (Cu-Zn),-0.23,"Brass-Low Copper, Bronze-Low Copper"
+19,Chlorimet 2,-0.28,"Nickel, Cobalt"
+20,"Hastelloy B (65 Ni, 28 Mo, 6 Fe)",-0.33,"Nickel, Cobalt"
+21,Inconel (active),-0.35,"Nickel, Cobalt"
+22,Nickel (active),-0.35,"Nickel, Cobalt"
+23,Tin,-0.42,"Tin, Tin-Lead, Indium"
+24,Lead,-0.47,Lead
+25,Lead-tin solders,-0.5,"Tin, Tin-Lead, Indium"
+26,18-8 Mo SS (active),-0.53,"St. Steels-Aust., PH, Super Strength, Heat Resistant"
+27,18-8 SS (active),-0.53,"St. Steels-Aust., PH, Super Strength, Heat Resistant"
+28,Ni-Resist (high nickel cast iron),-0.55,"Steels-Carbon, Low Alloy"
+29,Chromium SS 13% (active),-0.57,"St. Steels-Martensitic, Ferritic"
+30,Cast iron,-0.61,"Steels-Carbon, Low Alloy"
+31,Steel or iron,-0.61,"Steels-Carbon, Low Alloy"
+32,"2024 aluminum (4.5 Cu, 1.5 Mg, 0.6 Mn)",-0.69,"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum"
+33,Cadmium,-0.7,"Cadmium, Beryllium"
+34,Commercially pure aluminum (1100),-0.73,"Aluminum, Mg-Coated Aluminum, Zn-Coated Aluminum"
+35,Zinc,-1.03,"Zinc, Zinc Coating"
+36,Magnesium and magnesium alloys,-1.6,Magnesium

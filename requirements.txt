@@ -1,0 +1,27 @@
+# Galvanic Corrosion PINN - Requirements
+# =======================================
+# Install with: pip install -r requirements.txt
+#
+# For cloud training (Colab/GCP/AWS), PyTorch and CUDA are typically
+# pre-installed. Install torch-geometric separately:
+#   pip install torch-geometric
+#
+# For local CPU-only development:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#   pip install torch-geometric
+
+# Core ML
+torch>=2.0.0
+torch-geometric>=2.5.0
+
+# Data processing
+pandas>=1.5.0
+numpy>=1.23.0
+scikit-learn>=1.2.0
+
+# Utilities (optional, for plotting training curves)
+matplotlib>=3.5.0
+
+# Streamlit dashboard
+streamlit>=1.30.0
+plotly>=5.18.0
