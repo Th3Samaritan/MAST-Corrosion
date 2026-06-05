@@ -1073,8 +1073,9 @@ def render_batch_page(state):
                 ),
                 hovertemplate="Anode: %{y}<br>Cathode: %{x}<br>Value: %{z:.6f}<extra></extra>",
             ))
+            layout_no_axes = {k: v for k, v in PLOTLY_LAYOUT.items() if k not in ("xaxis", "yaxis")}
             fig_hm.update_layout(
-                **PLOTLY_LAYOUT,
+                **layout_no_axes,
                 height=600,
                 xaxis=dict(
                     **PLOTLY_LAYOUT["xaxis"],
