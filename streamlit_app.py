@@ -305,41 +305,124 @@ st.markdown("""
     }
 
     /* ================================================================
-       BUTTONS
+       BUTTONS — selectors cover legacy + modern Streamlit DOM
        ================================================================ */
 
-    .stButton > button {
+    /* Primary action button (filled, inverse) */
+    .stButton button,
+    .stButton > button,
+    [data-testid="stBaseButton-primary"],
+    [data-testid="stBaseButton-secondary"],
+    [data-testid="baseButton-primary"],
+    [data-testid="baseButton-secondary"],
+    .stFormSubmitButton button,
+    [data-testid="stFormSubmitButton"] button,
+    button[kind="primary"],
+    button[kind="secondary"],
+    button[kind="primaryFormSubmit"],
+    button[kind="secondaryFormSubmit"] {
         background: var(--accent) !important;
+        background-color: var(--accent) !important;
         color: var(--accent-inverse) !important;
         border: 1px solid var(--accent) !important;
         border-radius: 10px !important;
         padding: 12px 28px !important;
         font-weight: 600 !important;
         font-family: 'Inter', sans-serif !important;
-        letter-spacing: 0.02em;
-        transition: all var(--t) ease !important;
+        letter-spacing: 0.02em !important;
         box-shadow: var(--shadow-sm) !important;
+        transition:
+            background-color var(--t) ease,
+            color var(--t) ease,
+            border-color var(--t) ease,
+            transform var(--t) ease,
+            box-shadow var(--t) ease,
+            filter var(--t) ease !important;
     }
 
-    .stButton > button:hover {
+    /* Inner label nodes — Streamlit wraps the label in <p>/<div>/<span>,
+       and explicit color rules there block inheritance. Force them. */
+    .stButton button p,
+    .stButton button div,
+    .stButton button span,
+    [data-testid="stBaseButton-primary"] p,
+    [data-testid="stBaseButton-primary"] div,
+    [data-testid="stBaseButton-primary"] span,
+    [data-testid="stBaseButton-secondary"] p,
+    [data-testid="stBaseButton-secondary"] div,
+    [data-testid="stBaseButton-secondary"] span,
+    button[kind="primary"] p,
+    button[kind="primary"] div,
+    button[kind="primary"] span,
+    button[kind="secondary"] p,
+    button[kind="secondary"] div,
+    button[kind="secondary"] span,
+    .stFormSubmitButton button p,
+    .stFormSubmitButton button div,
+    .stFormSubmitButton button span {
+        color: var(--accent-inverse) !important;
+    }
+
+    .stButton button:hover,
+    [data-testid="stBaseButton-primary"]:hover,
+    [data-testid="stBaseButton-secondary"]:hover,
+    button[kind="primary"]:hover,
+    button[kind="secondary"]:hover,
+    .stFormSubmitButton button:hover {
+        background: var(--accent) !important;
+        background-color: var(--accent) !important;
+        color: var(--accent-inverse) !important;
         transform: translateY(-1px) !important;
         box-shadow: var(--shadow-md) !important;
-        filter: brightness(0.95);
+        filter: brightness(0.92);
     }
 
-    .stDownloadButton > button {
+    .stButton button:focus:not(:active),
+    button[kind="primary"]:focus:not(:active),
+    button[kind="secondary"]:focus:not(:active) {
+        outline: none !important;
+        box-shadow: 0 0 0 3px var(--accent-glow), var(--shadow-sm) !important;
+    }
+
+    .stButton button:disabled,
+    button[kind="primary"]:disabled,
+    button[kind="secondary"]:disabled {
+        opacity: 0.45 !important;
+        cursor: not-allowed !important;
+    }
+
+    /* Download button — outlined / quiet variant */
+    .stDownloadButton button,
+    .stDownloadButton > button,
+    [data-testid="stDownloadButton"] button {
         background: transparent !important;
+        background-color: transparent !important;
         color: var(--text-primary) !important;
         border: 1px solid var(--border-medium) !important;
         border-radius: 10px !important;
         font-weight: 600 !important;
         box-shadow: none !important;
-        transition: all var(--t) ease !important;
+        transition:
+            background-color var(--t) ease,
+            color var(--t) ease,
+            border-color var(--t) ease !important;
     }
 
-    .stDownloadButton > button:hover {
+    .stDownloadButton button p,
+    .stDownloadButton button div,
+    .stDownloadButton button span,
+    [data-testid="stDownloadButton"] button p,
+    [data-testid="stDownloadButton"] button div,
+    [data-testid="stDownloadButton"] button span {
+        color: var(--text-primary) !important;
+    }
+
+    .stDownloadButton button:hover,
+    [data-testid="stDownloadButton"] button:hover {
         border-color: var(--border-strong) !important;
         background: var(--accent-subtle) !important;
+        background-color: var(--accent-subtle) !important;
+        color: var(--text-primary) !important;
     }
 
     /* ================================================================
@@ -624,6 +707,46 @@ st.markdown("""
         .stApp::before { width: 250px; height: 250px; }
         .stApp::after { width: 200px; height: 200px; }
     }
+
+    /* ================================================================
+       FORCED TEXT-COLOR CASCADE
+       Streamlit applies explicit color rules on inner <p>/<span>/<div>
+       which block normal inheritance. We force them onto our CSS vars
+       so theme switching propagates everywhere.
+       ================================================================ */
+    .stApp,
+    .stApp p,
+    .stApp li,
+    .stMarkdown,
+    .stMarkdown p,
+    .stMarkdown li,
+    .stMarkdown span:not([style*="color"]),
+    [data-testid="stWidgetLabel"] p,
+    [data-testid="stMarkdownContainer"] p,
+    .stRadio label p,
+    .stSelectbox label p,
+    .stSlider label p,
+    .stToggle label p,
+    .stCheckbox label p,
+    .stFileUploader label p {
+        color: var(--text-primary);
+    }
+    /* Headings */
+    .stApp h1, .stApp h2, .stApp h3, .stApp h4, .stApp h5, .stApp h6,
+    .stMarkdown h1, .stMarkdown h2, .stMarkdown h3, .stMarkdown h4 {
+        color: var(--text-primary) !important;
+    }
+    /* Tab labels (inner <p>) */
+    .stTabs [data-baseweb="tab"] p { color: inherit !important; }
+    /* Code blocks */
+    .stApp code, .stMarkdown code {
+        color: var(--text-primary);
+        background: var(--accent-subtle);
+        padding: 1px 6px;
+        border-radius: 4px;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.85em;
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -698,23 +821,15 @@ LIGHT_THEME_CSS = """
     --verdict-red-border: var(--danger-border);
 }
 
-/* Streamlit's own surfaces — force-paint so the toggle takes hold everywhere */
+/* Force-paint Streamlit-managed surfaces that don't auto-follow var(--bg-*) */
 .stApp,
 .stApp > header,
-section[data-testid="stSidebar"],
-section[data-testid="stSidebar"] > div,
 [data-testid="stHeader"] {
     background-color: var(--bg-primary) !important;
-    color: var(--text-primary) !important;
 }
 section[data-testid="stSidebar"],
 section[data-testid="stSidebar"] > div {
     background-color: var(--bg-sidebar) !important;
-}
-.stApp p, .stApp label, .stApp span, .stApp li,
-.stMarkdown, .stMarkdown p, .stMarkdown li,
-.stRadio label, .stSelectbox label, .stSlider label, .stToggle label {
-    color: var(--text-primary);
 }
 </style>
 """
