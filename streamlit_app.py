@@ -61,9 +61,9 @@ st.markdown("""
         --accent-inverse: #0a0a0a;
 
         --text-primary: #fafafa;
-        --text-secondary: #b8b8b8;
-        --text-muted: #6e6e6e;
-        --text-faint: #3f3f3f;
+        --text-secondary: #c9c9c9;
+        --text-muted: #8a8a8a;
+        --text-faint: #5a5a5a;
 
         --shadow-sm: 0 1px 2px rgba(0,0,0,0.5);
         --shadow-md: 0 4px 18px rgba(0,0,0,0.35);
@@ -426,19 +426,86 @@ st.markdown("""
     }
 
     /* ================================================================
-       EXPANDER / DATAFRAME
+       EXPANDER / DATAFRAME / TOGGLE / FILE UPLOADER / CALLOUTS
        ================================================================ */
 
-    .streamlit-expanderHeader {
+    /* Expander (covers legacy + modern Streamlit testids) */
+    .streamlit-expanderHeader,
+    [data-testid="stExpander"] details > summary,
+    [data-testid="stExpander"] details {
         background: var(--bg-glass) !important;
         border-radius: 10px !important;
         border: 1px solid var(--border-subtle) !important;
+        color: var(--text-primary) !important;
         transition: all var(--t) ease;
     }
+    [data-testid="stExpander"] details > summary:hover {
+        border-color: var(--border-hover) !important;
+        background: var(--bg-elevated) !important;
+    }
+    [data-testid="stExpander"] details > summary p,
+    [data-testid="stExpander"] details > summary span {
+        color: var(--text-primary) !important;
+    }
+    [data-testid="stExpander"] details[open] {
+        background: var(--bg-card) !important;
+    }
 
-    .stDataFrame {
+    /* Dataframe — let Streamlit's auto theme handle internals but round + bound */
+    .stDataFrame,
+    [data-testid="stDataFrame"] {
         border-radius: 12px;
         overflow: hidden;
+        border: 1px solid var(--border-subtle);
+    }
+
+    /* Toggle switch — repaint track + thumb to track theme */
+    .stToggle [role="checkbox"][aria-checked="true"],
+    [data-testid="stToggle"] [role="checkbox"][aria-checked="true"] {
+        background: var(--accent) !important;
+    }
+    .stToggle [role="checkbox"][aria-checked="false"],
+    [data-testid="stToggle"] [role="checkbox"][aria-checked="false"] {
+        background: var(--border-hover) !important;
+    }
+
+    /* File uploader */
+    [data-testid="stFileUploader"] section,
+    [data-testid="stFileUploaderDropzone"] {
+        background: var(--bg-glass) !important;
+        border: 1px dashed var(--border-medium) !important;
+        border-radius: 10px !important;
+        color: var(--text-primary) !important;
+    }
+    [data-testid="stFileUploaderDropzone"]:hover {
+        border-color: var(--border-strong) !important;
+        background: var(--accent-subtle) !important;
+    }
+    [data-testid="stFileUploader"] small,
+    [data-testid="stFileUploader"] span {
+        color: var(--text-secondary) !important;
+    }
+
+    /* Native callouts (st.info / st.success / st.warning / st.error) */
+    [data-testid="stAlert"] {
+        background: var(--bg-card) !important;
+        border-radius: 10px !important;
+        border: 1px solid var(--border-subtle) !important;
+        color: var(--text-primary) !important;
+    }
+    [data-testid="stAlert"] [data-testid="stMarkdownContainer"] p {
+        color: var(--text-primary) !important;
+    }
+
+    /* Progress bar */
+    [data-testid="stProgress"] > div > div > div {
+        background: var(--accent) !important;
+    }
+
+    /* Radio group items — readable label on themed bg */
+    .stRadio [data-baseweb="radio"] label,
+    .stRadio [data-baseweb="radio"] div {
+        color: var(--text-primary) !important;
     }
 
     /* ================================================================
@@ -525,7 +592,7 @@ st.markdown("""
 
     .verdict-subtitle {
         font-size: 0.9rem;
-        color: var(--text-muted);
+        color: var(--text-secondary);
         font-family: 'JetBrains Mono', monospace;
         transition: color var(--t) ease;
     }
@@ -570,11 +637,11 @@ st.markdown("""
 
     .hero-subtitle {
         font-size: 1.05rem;
-        color: var(--text-muted);
+        color: var(--text-secondary);
         font-weight: 400;
-        max-width: 580px;
+        max-width: 620px;
         margin: 0 auto;
-        line-height: 1.5;
+        line-height: 1.55;
         transition: color var(--t) ease;
     }
 
@@ -689,6 +756,17 @@ st.markdown("""
             font-size: 1.3rem !important;
         }
 
+        .verdict-compatible,
+        .verdict-unfavorable {
+            padding: 18px 16px !important;
+            border-radius: 12px !important;
+        }
+
+        .verdict-subtitle {
+            font-size: 0.78rem !important;
+            line-height: 1.4;
+        }
+
         .info-row {
             flex-direction: column;
             gap: 2px;
@@ -706,6 +784,49 @@ st.markdown("""
 
         .stApp::before { width: 250px; height: 250px; }
         .stApp::after { width: 200px; height: 200px; }
+
+        /* Stack any column row vertically below 640px so 4-up metric grids,
+           the 3:1 heatmap layout, and material-group cards don't squish. */
+        [data-testid="stHorizontalBlock"] {
+            flex-direction: column !important;
+            gap: 0.5rem !important;
+        }
+        [data-testid="column"],
+        [data-testid="stHorizontalBlock"] > div {
+            width: 100% !important;
+            flex: 1 0 100% !important;
+            min-width: 0 !important;
+        }
+
+        /* Plotly charts shrink to viewport */
+        [data-testid="stPlotlyChart"],
+        .js-plotly-plot,
+        .plot-container {
+            width: 100% !important;
+            max-width: 100vw !important;
+            overflow-x: auto;
+        }
+
+        /* Reduce section markdown spacing */
+        h1, h2, h3, h4 { margin-top: 1rem !important; }
+
+        /* Native callouts get a touch less padding */
+        [data-testid="stAlert"] {
+            padding: 10px 14px !important;
+        }
+
+        /* File uploader compresses */
+        [data-testid="stFileUploaderDropzone"] {
+            padding: 16px !important;
+        }
+    }
+
+    /* Tablet refinement (641px – 1024px): keep columns side-by-side but allow wrap */
+    @media (min-width: 641px) and (max-width: 1024px) {
+        [data-testid="stHorizontalBlock"] {
+            flex-wrap: wrap !important;
+            gap: 0.75rem !important;
+        }
     }
 
     /* ================================================================
@@ -775,9 +896,9 @@ LIGHT_THEME_CSS = """
     --accent-inverse: #ffffff;
 
     --text-primary: #0a0a0a;
-    --text-secondary: #3f3f3f;
-    --text-muted: #8a8a8a;
-    --text-faint: #c4c4c4;
+    --text-secondary: #383838;
+    --text-muted: #6a6a6a;
+    --text-faint: #a8a8a8;
 
     --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
     --shadow-md: 0 4px 18px rgba(0,0,0,0.06);
@@ -905,26 +1026,35 @@ def get_training_logs():
 # ---------------------------------------------------------------------------
 
 def get_plotly_layout():
-    """Return Plotly layout dict that adapts to current theme mode."""
+    """Return Plotly layout dict that adapts to current theme mode.
+    Chart text gets higher contrast than body text — readable but not noisy."""
     is_light = st.session_state.get("theme_mode", "dark") == "light"
-    text_color = "#52525b" if is_light else "#a1a1aa"
-    grid_color = "rgba(0,0,0,0.05)" if is_light else "rgba(255,255,255,0.05)"
-    zero_color = "rgba(0,0,0,0.08)" if is_light else "rgba(255,255,255,0.07)"
-    legend_bg = "rgba(255,255,255,0.9)" if is_light else "rgba(14,14,17,0.9)"
-    legend_border = "rgba(0,0,0,0.08)" if is_light else "rgba(255,255,255,0.08)"
+    # Higher contrast than body text — charts need legibility
+    text_color = "#3f3f3f" if is_light else "#d4d4d4"
+    grid_color = "rgba(10,10,10,0.07)" if is_light else "rgba(255,255,255,0.06)"
+    zero_color = "rgba(10,10,10,0.14)" if is_light else "rgba(255,255,255,0.1)"
+    legend_bg = "rgba(255,255,255,0.92)" if is_light else "rgba(20,20,20,0.85)"
+    legend_border = "rgba(10,10,10,0.12)" if is_light else "rgba(255,255,255,0.1)"
+
+    axis_common = dict(
+        gridcolor=grid_color,
+        zerolinecolor=zero_color,
+        tickfont=dict(color=text_color, size=11, family="Inter, sans-serif"),
+        title=dict(font=dict(color=text_color, size=12, family="Inter, sans-serif")),
+    )
 
     return dict(
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
         font=dict(family="Inter, sans-serif", color=text_color, size=12),
-        margin=dict(l=40, r=20, t=40, b=40),
-        xaxis=dict(gridcolor=grid_color, zerolinecolor=zero_color),
-        yaxis=dict(gridcolor=grid_color, zerolinecolor=zero_color),
+        margin=dict(l=50, r=30, t=50, b=50),
+        xaxis=dict(**axis_common),
+        yaxis=dict(**axis_common),
         legend=dict(
             bgcolor=legend_bg,
             bordercolor=legend_border,
             borderwidth=1,
-            font=dict(size=11, color=text_color),
+            font=dict(size=11, color=text_color, family="Inter, sans-serif"),
         ),
     )
 
@@ -1581,22 +1711,24 @@ def render_batch_page(state):
                 hovertemplate="Anode: %{y}<br>Cathode: %{x}<br>Value: %{z:.6f}<extra></extra>",
             ))
             layout_no_axes = {k: v for k, v in PLOTLY_LAYOUT.items() if k not in ("xaxis", "yaxis")}
+            _hm_text = PLOTLY_LAYOUT["font"]["color"]
             fig_hm.update_layout(
                 **layout_no_axes,
                 height=600,
                 xaxis=dict(
-                    **PLOTLY_LAYOUT["xaxis"],
-                    tickangle=-45, tickfont=dict(size=9),
-                    title="Cathode Group",
+                    gridcolor=PLOTLY_LAYOUT["xaxis"]["gridcolor"],
+                    tickangle=-45,
+                    tickfont=dict(size=9, color=_hm_text, family="Inter, sans-serif"),
+                    title=dict(text="Cathode Group", font=dict(color=_hm_text, size=12)),
                 ),
                 yaxis=dict(
-                    **PLOTLY_LAYOUT["yaxis"],
-                    tickfont=dict(size=9),
-                    title="Anode Group",
+                    gridcolor=PLOTLY_LAYOUT["yaxis"]["gridcolor"],
+                    tickfont=dict(size=9, color=_hm_text, family="Inter, sans-serif"),
+                    title=dict(text="Anode Group", font=dict(color=_hm_text, size=12)),
                     autorange="reversed",
                 ),
             )
-            st.plotly_chart(fig_hm, width="stretch")
+            st.plotly_chart(fig_hm, width="stretch", config={"displayModeBar": False})
         else:
             st.info("👆 Click **Generate Heatmap** to create a cross-material analysis.")
 
@@ -1689,70 +1821,83 @@ def render_reference_page(state):
     # --- Interactive Chart ---
     st.markdown("#### ⚡ Electrochemical Potential Ladder")
 
-    # Color map for groups
-    unique_groups = galv_df["Group"].unique()
-    palette = (
-        px.colors.qualitative.Set3
-        + px.colors.qualitative.Pastel1
-        + px.colors.qualitative.Set2
-    )
-    color_map = {g: palette[i % len(palette)] for i, g in enumerate(unique_groups)}
+    # Sort active → noble so the ladder reads top-down
+    galv_sorted = galv_df.sort_values("Potential_V_SCE").reset_index(drop=True)
 
-    fig_series = go.Figure()
+    # Theme-aware text and surface colors
+    text_color = PLOTLY_LAYOUT["font"]["color"]
+    grid_color = PLOTLY_LAYOUT["xaxis"]["gridcolor"]
+    zero_color = PLOTLY_LAYOUT["xaxis"]["zerolinecolor"]
+    is_light_mode = st.session_state.get("theme_mode", "dark") == "light"
+    bar_border = "rgba(10,10,10,0.18)" if is_light_mode else "rgba(255,255,255,0.14)"
 
-    for group in unique_groups:
-        mask = galv_df["Group"] == group
-        subset = galv_df[mask]
-        fig_series.add_trace(go.Bar(
-            y=subset["Material"],
-            x=subset["Potential_V_SCE"],
-            orientation="h",
-            name=group[:25],
-            marker=dict(
-                color=color_map[group],
-                opacity=0.85,
-                line=dict(width=0.5, color="rgba(255,255,255,0.2)"),
+    # Color encodes potential itself — red (active/corroding) → green (noble/protected).
+    # This is more informative than per-group colors and stays readable on both themes.
+    fig_series = go.Figure(data=go.Bar(
+        y=galv_sorted["Material"],
+        x=galv_sorted["Potential_V_SCE"],
+        orientation="h",
+        marker=dict(
+            color=galv_sorted["Potential_V_SCE"],
+            colorscale="RdYlGn",
+            cmin=galv_sorted["Potential_V_SCE"].min(),
+            cmax=galv_sorted["Potential_V_SCE"].max(),
+            showscale=True,
+            colorbar=dict(
+                title=dict(text="V (SCE)", font=dict(size=11, color=text_color)),
+                tickfont=dict(color=text_color, size=10),
+                outlinewidth=0,
+                thickness=10,
+                len=0.75,
+                x=1.02,
+                xanchor="left",
             ),
-            hovertemplate="<b>%{y}</b><br>Potential: %{x:.2f} V (SCE)<br>Group: " + group + "<extra></extra>",
-        ))
-
-    layout_base = {k: v for k, v in PLOTLY_LAYOUT.items() if k not in ("legend", "yaxis")}
-    fig_series.update_layout(
-        **layout_base,
-        height=max(500, len(galv_df) * 22),
-        barmode="relative",
-        xaxis_title="Potential vs SCE (V)",
-        yaxis=dict(
-            **PLOTLY_LAYOUT["yaxis"],
-            categoryorder="total ascending",
-            tickfont=dict(size=11),
+            line=dict(width=0.5, color=bar_border),
         ),
-        legend=dict(
-            **{k: v for k, v in PLOTLY_LAYOUT["legend"].items() if k != "font"},
-            orientation="v",
-            yanchor="top", y=1,
-            xanchor="left", x=1.02,
-            font=dict(size=9, color=PLOTLY_LAYOUT["font"]["color"]),
+        customdata=galv_sorted["Group"],
+        hovertemplate="<b>%{y}</b><br>Potential: %{x:.2f} V (SCE)<br>Group: %{customdata}<extra></extra>",
+    ))
+
+    fig_series.update_layout(
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(family="Inter, sans-serif", color=text_color, size=12),
+        height=max(620, len(galv_sorted) * 22),
+        margin=dict(l=10, r=80, t=70, b=60),
+        bargap=0.22,
+        showlegend=False,
+        xaxis=dict(
+            gridcolor=grid_color,
+            zerolinecolor=zero_color,
+            zerolinewidth=1.5,
+            tickfont=dict(color=text_color, size=11),
+            title=dict(text="Potential vs SCE (V)", font=dict(color=text_color, size=12)),
+        ),
+        yaxis=dict(
+            gridcolor="rgba(0,0,0,0)",
+            tickfont=dict(color=text_color, size=11),
+            title=None,
+            automargin=True,
         ),
         annotations=[
             dict(
-                x=-1.7, y=-0.5,
+                x=0.02, y=1.045, xref="paper", yref="paper",
                 text="← Anodic (Active)",
                 showarrow=False,
-                font=dict(color=COLORS["red"], size=12, family="Inter"),
-                xref="x", yref="paper",
+                font=dict(color=COLORS["anode"], size=13, family="Inter"),
+                xanchor="left",
             ),
             dict(
-                x=0.25, y=-0.5,
+                x=0.92, y=1.045, xref="paper", yref="paper",
                 text="Cathodic (Noble) →",
                 showarrow=False,
-                font=dict(color=COLORS["green"], size=12, family="Inter"),
-                xref="x", yref="paper",
+                font=dict(color=COLORS["cathode"], size=13, family="Inter"),
+                xanchor="right",
             ),
         ],
     )
 
-    st.plotly_chart(fig_series, width="stretch")
+    st.plotly_chart(fig_series, width="stretch", config={"displayModeBar": False})
 
     # --- Data Table ---
     st.markdown("---")
@@ -1790,13 +1935,15 @@ def render_reference_page(state):
         groups_df = pd.read_csv(
             os.path.join(os.path.dirname(os.path.abspath(__file__)), "pdf_table1_material_groups.csv")
         )
-        group_cols = st.columns(4)
+        # 3-column grid: balances density with breathing room. CSS forces stack on mobile.
+        n_cols = 3
+        group_cols = st.columns(n_cols)
         for i, (_, row) in enumerate(groups_df.iterrows()):
-            with group_cols[i % 4]:
+            with group_cols[i % n_cols]:
                 st.markdown(f"""
-                <div class="glass-card" style="padding:12px 16px; margin-bottom:8px;">
+                <div class="glass-card" style="padding:14px 18px; margin-bottom:10px; min-height:84px;">
                     <span style="color:var(--text-primary); font-weight:800; font-size:1.05rem; font-family:'JetBrains Mono', monospace; letter-spacing:-0.02em;">#{row['Group_ID']}</span>
-                    <div style="color:var(--text-secondary); font-size:0.82rem; margin-top:4px; line-height:1.4;">{row['Category']}</div>
+                    <div style="color:var(--text-secondary); font-size:0.85rem; margin-top:6px; line-height:1.45;">{row['Category']}</div>
                 </div>
                 """, unsafe_allow_html=True)
     except Exception:
