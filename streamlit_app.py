@@ -37,7 +37,7 @@ st.markdown("""
 
     /* ================================================================
        DESIGN SYSTEM — Minimalist Black & White
-       Dark mode (default) / Light mode (.light-mode class)
+       Dark mode (:root default) / Light mode (overridden by LIGHT_THEME_CSS)
        ================================================================ */
 
     /* ---------- Dark Mode (Ink) — Default ---------- */
@@ -111,71 +111,7 @@ st.markdown("""
         --t: 0.3s;
     }
 
-    /* ---------- Light Mode (Paper) ---------- */
-    .light-mode {
-        --bg-primary: #f8f7f4;
-        --bg-secondary: #eeede9;
-        --bg-card: rgba(255, 255, 255, 0.86);
-        --bg-glass: rgba(252, 252, 250, 0.72);
-        --bg-sidebar: #f2f1ed;
-        --bg-elevated: #ffffff;
-        --border-subtle: rgba(10, 10, 10, 0.07);
-        --border-medium: rgba(10, 10, 10, 0.11);
-        --border-hover: rgba(10, 10, 10, 0.22);
-        --border-strong: rgba(10, 10, 10, 0.34);
-
-        --accent: #0a0a0a;
-        --accent-ink: #1a1a1a;
-        --accent-glow: rgba(10, 10, 10, 0.07);
-        --accent-subtle: rgba(10, 10, 10, 0.04);
-        --accent-inverse: #ffffff;
-
-        --text-primary: #0a0a0a;
-        --text-secondary: #3f3f3f;
-        --text-muted: #8a8a8a;
-        --text-faint: #c4c4c4;
-
-        --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
-        --shadow-md: 0 4px 18px rgba(0,0,0,0.06);
-        --shadow-lg: 0 12px 40px rgba(0,0,0,0.08);
-
-        --orb-opacity: 0.05;
-        --orb-color-1: #d4d4d4;
-        --orb-color-2: #a8a8a8;
-
-        --success: #047857;
-        --success-soft: #059669;
-        --success-bg: rgba(4, 120, 87, 0.07);
-        --success-border: rgba(4, 120, 87, 0.2);
-
-        --warning: #c2410c;
-        --warning-soft: #d97706;
-        --warning-bg: rgba(194, 65, 12, 0.06);
-        --warning-border: rgba(194, 65, 12, 0.18);
-
-        --danger: #be123c;
-        --danger-soft: #dc2626;
-        --danger-bg: rgba(190, 18, 60, 0.06);
-        --danger-border: rgba(190, 18, 60, 0.2);
-
-        --info: #4338ca;
-        --info-soft: #6366f1;
-
-        --anode: var(--danger);
-        --cathode: var(--success);
-        --gradient: var(--info);
-
-        --risk-low: var(--success);
-        --risk-med: var(--warning);
-        --risk-high: var(--danger);
-
-        --verdict-green: var(--success);
-        --verdict-green-bg: var(--success-bg);
-        --verdict-green-border: var(--success-border);
-        --verdict-red: var(--danger);
-        --verdict-red-bg: var(--danger-bg);
-        --verdict-red-border: var(--danger-border);
-    }
+    /* Light-mode variable overrides are emitted conditionally by inject_theme() at runtime */
 
     /* ================================================================
        GLOBAL
@@ -695,31 +631,112 @@ st.markdown("""
 # Dark / Light mode toggle (CSS class injection)
 # ---------------------------------------------------------------------------
 
-if "theme_mode" not in st.session_state:
-    st.session_state["theme_mode"] = "dark"
+LIGHT_THEME_CSS = """
+<style>
+:root {
+    --bg-primary: #f8f7f4;
+    --bg-secondary: #eeede9;
+    --bg-card: rgba(255, 255, 255, 0.86);
+    --bg-glass: rgba(252, 252, 250, 0.72);
+    --bg-sidebar: #f2f1ed;
+    --bg-elevated: #ffffff;
+    --border-subtle: rgba(10, 10, 10, 0.07);
+    --border-medium: rgba(10, 10, 10, 0.11);
+    --border-hover: rgba(10, 10, 10, 0.22);
+    --border-strong: rgba(10, 10, 10, 0.34);
 
-def get_theme_class():
-    return "light-mode" if st.session_state["theme_mode"] == "light" else ""
+    --accent: #0a0a0a;
+    --accent-ink: #1a1a1a;
+    --accent-glow: rgba(10, 10, 10, 0.07);
+    --accent-subtle: rgba(10, 10, 10, 0.04);
+    --accent-inverse: #ffffff;
+
+    --text-primary: #0a0a0a;
+    --text-secondary: #3f3f3f;
+    --text-muted: #8a8a8a;
+    --text-faint: #c4c4c4;
+
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+    --shadow-md: 0 4px 18px rgba(0,0,0,0.06);
+    --shadow-lg: 0 12px 40px rgba(0,0,0,0.08);
+
+    --orb-opacity: 0.05;
+    --orb-color-1: #d4d4d4;
+    --orb-color-2: #a8a8a8;
+
+    --success: #047857;
+    --success-soft: #059669;
+    --success-bg: rgba(4, 120, 87, 0.07);
+    --success-border: rgba(4, 120, 87, 0.2);
+
+    --warning: #c2410c;
+    --warning-soft: #d97706;
+    --warning-bg: rgba(194, 65, 12, 0.06);
+    --warning-border: rgba(194, 65, 12, 0.18);
+
+    --danger: #be123c;
+    --danger-soft: #dc2626;
+    --danger-bg: rgba(190, 18, 60, 0.06);
+    --danger-border: rgba(190, 18, 60, 0.2);
+
+    --info: #4338ca;
+    --info-soft: #6366f1;
+
+    --anode: var(--danger);
+    --cathode: var(--success);
+    --gradient: var(--info);
+
+    --risk-low: var(--success);
+    --risk-med: var(--warning);
+    --risk-high: var(--danger);
+
+    --verdict-green: var(--success);
+    --verdict-green-bg: var(--success-bg);
+    --verdict-green-border: var(--success-border);
+    --verdict-red: var(--danger);
+    --verdict-red-bg: var(--danger-bg);
+    --verdict-red-border: var(--danger-border);
+}
+
+/* Streamlit's own surfaces — force-paint so the toggle takes hold everywhere */
+.stApp,
+.stApp > header,
+section[data-testid="stSidebar"],
+section[data-testid="stSidebar"] > div,
+[data-testid="stHeader"] {
+    background-color: var(--bg-primary) !important;
+    color: var(--text-primary) !important;
+}
+section[data-testid="stSidebar"],
+section[data-testid="stSidebar"] > div {
+    background-color: var(--bg-sidebar) !important;
+}
+.stApp p, .stApp label, .stApp span, .stApp li,
+.stMarkdown, .stMarkdown p, .stMarkdown li,
+.stRadio label, .stSelectbox label, .stSlider label, .stToggle label {
+    color: var(--text-primary);
+}
+</style>
+"""
+
+def sync_theme_from_widget():
+    """Read the toggle widget's state (set by prior rerun) and update theme_mode
+    BEFORE any CSS is emitted, so the page paints with the correct theme on the
+    same rerun the user clicks the toggle."""
+    if "theme_toggle" in st.session_state:
+        st.session_state["theme_mode"] = (
+            "light" if st.session_state["theme_toggle"] else "dark"
+        )
+    elif "theme_mode" not in st.session_state:
+        st.session_state["theme_mode"] = "dark"
 
 def inject_theme():
-    """Inject a script that sets the theme class on .stApp for seamless transition."""
-    theme_class = get_theme_class()
-    # This script adds/removes the light-mode class on the main app container
-    st.markdown(f"""
-    <script>
-        (function() {{
-            const app = window.parent.document.querySelector('.stApp');
-            if (app) {{
-                if ('{theme_class}' === 'light-mode') {{
-                    app.classList.add('light-mode');
-                }} else {{
-                    app.classList.remove('light-mode');
-                }}
-            }}
-        }})();
-    </script>
-    """, unsafe_allow_html=True)
+    """Emit light-mode CSS variable overrides when the user has toggled light mode.
+    Dark mode is the default in :root, so no override is needed for it."""
+    if st.session_state.get("theme_mode") == "light":
+        st.markdown(LIGHT_THEME_CSS, unsafe_allow_html=True)
 
+sync_theme_from_widget()
 inject_theme()
 
 
@@ -840,15 +857,12 @@ def render_sidebar(state):
 
         st.markdown("---")
 
-        # Theme Toggle
-        is_light = st.toggle(
+        # Theme Toggle — sync_theme_from_widget() at top of run reads this on next rerun
+        st.toggle(
             "☀️ Light Mode",
             value=st.session_state.get("theme_mode", "dark") == "light",
             key="theme_toggle",
         )
-        st.session_state["theme_mode"] = "light" if is_light else "dark"
-        # Re-inject theme class after toggle change
-        inject_theme()
 
         st.markdown("---")
 
