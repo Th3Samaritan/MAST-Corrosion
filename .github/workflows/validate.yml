@@ -1,0 +1,48 @@
+name: Validate migration
+on:
+  push:
+  pull_request:
+jobs:
+  frontend-api:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci --prefix app
+      - run: npm test --prefix api
+      - run: npm run typecheck --prefix app
+      - run: npm run build --prefix app
+  model:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: api/requirements.txt
+      - run: pip install -r api/requirements.txt
+      - run: python -m unittest discover -s api/tests -p 'test_*.py'
+      - name: Build Render image
+        run: docker build -t mast-corrosion-api:test .
+      - name: Verify model worker in Render image
+        run: |
+          docker run --rm --entrypoint node mast-corrosion-api:test --experimental-strip-types --input-type=module -e "
+          import {modelBridge} from './api/model-bridge.mjs';
+          const worker=modelBridge();
+          try {
+            const catalog=await worker.request({action:'catalog'});
+            const training=await worker.request({action:'training'});
+            if(catalog.materials.length!==36 || training.runs.length!==3)throw new Error('Missing model assets');
+            for(const run of ['1','2','3']) {
+              const value=await worker.request({action:'predict',run,pairs:[{anode:catalog.materials.at(-1).Material,cathode:catalog.materials[0].Material,environment:catalog.environments[0],area_ratio:1}]});
+              if(!Number.isFinite(value.results[0].current_proxy))throw new Error('Invalid inference');
+            }
+            console.log('Render image: reference, training and all three checkpoints passed');
+          } finally {worker.close();}"

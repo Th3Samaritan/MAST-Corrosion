@@ -1,197 +1,83 @@
-<p align="center">
-  <h1 align="center">⚡ MAST-Corrosion</h1>
-  <p align="center">
-    <strong>Physics-Informed Graph Neural Network for Galvanic Corrosion Prediction</strong>
-  </p>
-  <p align="center">
-    <a href="#features">Features</a> •
-    <a href="#architecture">Architecture</a> •
-    <a href="#installation">Installation</a> •
-    <a href="#usage">Usage</a> •
-    <a href="#dashboard">Dashboard</a> •
-    <a href="#project-structure">Structure</a>
-  </p>
-</p>
+# MAST Corrosion
 
----
-
-## Overview
-
-MAST-Corrosion is a **Physics-Informed Neural Network (PINN)** built on **PyTorch Geometric** that predicts galvanic corrosion behaviour in multi-material assemblies. The model enforces electrochemical constraints — Kirchhoff's Current Law (KCL) and thermodynamic consistency — directly in the loss function, ensuring physically plausible predictions even on unseen material pairs.
-
-An interactive **Streamlit dashboard** provides real-time predictions, training analytics, batch analysis, and a complete galvanic series reference.
-
-## Features
-
-- **Graph-based architecture** — Materials as nodes, electrolytic joints as edges, using NNConv message passing
-- **Multi-task prediction** — Simultaneous regression (current density) and classification (compatibility)
-- **Physics-informed losses** — KCL conservation and thermodynamic consistency penalties
-- **Interactive dashboard** — Professional Streamlit UI with 4 analysis tabs
-- **Batch analysis** — Cross-material heatmaps and CSV batch predictions
-- **3 trained model checkpoints** — With full training logs and visualisations
+Next.js engineering workspace for Vercel, a Render calculation/model API, and Supabase authentication and private assessment storage. Streamlit is no longer the application runtime.
 
 ## Architecture
 
-```
-Input Graph (2 nodes, bidirectional edges)
-    │
-    ├── Node features: [potential_SCE, rank, group_one_hot(20)]
-    └── Edge features: [ΔV, log(area_ratio), conductivity, env_one_hot(3)]
-    │
-    ▼
-┌─────────────────────────────┐
-│   Node Embedding (Linear)   │
-└─────────────┬───────────────┘
-              │
-    ┌─────────▼─────────┐
-    │  NNConv × 3       │  ← Edge-conditioned message passing
-    │  + LayerNorm      │     with residual connections
-    │  + Residual       │
-    └─────────┬─────────┘
-              │
-    ┌─────────┼─────────────────┐
-    │         │                 │
-    ▼         ▼                 ▼
-┌────────┐ ┌──────────┐ ┌──────────────┐
-│V_nodes │ │ I_edges  │ │  Compat(B,1) │
-│ (N,1)  │ │  (E,1)   │ │  (sigmoid)   │
-└────────┘ └──────────┘ └──────────────┘
- Potential   Current      Compatibility
-             Density      Probability
+```text
+Vercel · Next.js / React
+  ├── Supabase Auth · email/password sessions
+  ├── Render API · uniform corrosion calculations
+  │     ├── persistent Python worker · original PyTorch GNN checkpoints
+  │     └── Supabase Postgres · requests carry verified user JWT + RLS
+  └── device-local assessments and downloadable reports
 ```
 
-### Physics-Informed Loss
+The existing galvanic model remains available as a **synthetic-trained research model**. Its current proxy and compatibility scores are not validated penetration rates or calibrated probabilities. The uniform-corrosion engine uses separate, explicit physical calculations for measured thickness, current density, polarization resistance and coupon loss.
 
-| Component | Description | Weight |
-|-----------|-------------|--------|
-| **Data MSE** | Predicted vs true current density | 1.0 |
-| **Classification BCE** | Predicted vs true compatibility | λ_cls = 0.5 |
-| **KCL Penalty** | Net current at each node → 0 | λ_kcl = 0.1 |
-| **Thermodynamic** | Current flows anode → cathode | λ_thermo = 0.1 |
+## Run locally
 
-## Installation
+Requires Node 22.18+ and Python 3.11+. Install the CPU inference dependencies only if using the galvanic research features.
 
-### Prerequisites
-- Python 3.10+
-- [Git LFS](https://git-lfs.github.com/) (for model checkpoint files)
-
-### Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/<your-username>/MAST-Corrosion.git
-cd MAST-Corrosion
-
-# Pull LFS files (model checkpoints)
+```sh
+npm ci --prefix app
+npm ci --prefix api
+python -m pip install -r api/requirements.txt
 git lfs pull
-
-# Create virtual environment
-python -m venv .venv
-
-# Activate (Windows)
-.venv\Scripts\activate
-
-# Activate (Linux/macOS)
-# source .venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
 ```
 
-> **Note:** For CPU-only setups, install PyTorch separately first:
-> ```bash
-> pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
-> pip install torch-geometric
-> ```
+Copy `api/.env.example` to `api/.env` and `app/.env.example` to `app/.env.local`, then enter your project values. Do not commit those files. Apply the Supabase migration before using cloud snapshots.
 
-## Usage
+In separate terminals:
 
-### Launch the Dashboard
-
-```bash
-streamlit run streamlit_app.py
+```sh
+cd api
+npm run dev
 ```
 
-The dashboard opens at `http://localhost:8501` with four tabs:
-
-| Tab | Description |
-|-----|-------------|
-| 🔬 **Prediction Engine** | Single material pair prediction with physics breakdown |
-| 📊 **Training Analytics** | Loss curves, metrics, LR schedules across 3 training runs |
-| 🧪 **Batch Analysis** | Compatibility heatmaps and CSV batch predictions |
-| 📚 **Galvanic Series** | Interactive reference chart with electrochemical potentials |
-
-### Train a New Model
-
-```bash
-python train.py
+```sh
+cd app
+npm run dev
 ```
 
-### Run on Cloud (Colab / GCP)
+The frontend uses port 3000; the API uses port 8000. Without frontend environment values the app runs locally calculated, device-only assessments. If an API URL is configured but unavailable, requests fail visibly and inputs are retained; the app does not silently substitute local results.
 
-```bash
-python run_cloud.py
+## Deploy
+
+Follow [the deployment and cutover guide](docs/deployment.md).
+
+- **Vercel:** import this repository with Root Directory `app`; use the Next.js preset and the three `NEXT_PUBLIC_*` variables in `app/.env.example`.
+- **Render:** import root `render.yaml`. Its Docker image includes Node and Python and retains the existing model files. The proposed `standard` service is a paid memory tier; review current cost before creation. No service has been provisioned by this commit.
+- **Supabase:** apply `supabase/migrations/202609300001_assessments.sql`; enable email/password auth; use a publishable key, not a service-role key. RLS isolates each user's assessments.
+
+## Application features
+
+| View | Function |
+|---|---|
+| Assessment | Four uniform-loss methods, validated inputs, conditional thickness forecast, measurement provenance, CSV import, report/JSON export |
+| Saved comparisons | Local snapshots, Supabase sign-in, private cloud save/load/delete, paginated records |
+| Galvanic research | Three retained checkpoints, single pair, CSV batches, group heatmap, material series and training history |
+| Methods & evidence | Equations, assumptions, source links and validation boundaries |
+
+## Verification
+
+```sh
+npm test --prefix api
+npm run typecheck --prefix app
+npm run build --prefix app
+python -m unittest discover -s api/tests -p "test_*.py"
 ```
 
-## Dashboard
+API tests exercise real HTTP behavior with mocked Supabase responses. They are not a live Supabase RLS test. Run the SQL isolation test against a disposable Supabase database and complete the two-account deployment checks before cutover.
 
-The Streamlit dashboard features a dark glassmorphism design with:
+## Repository structure
 
-- **Real-time predictions** for any anode/cathode material pair
-- **Environment selection** (Marine, Industrial, Rural) with conductivity display
-- **Area ratio sensitivity** with risk gauges
-- **Compatibility verdict** with confidence scores
-- **Cross-material heatmaps** for systematic analysis
-- **Training run comparison** across 3 model checkpoints
-- **Interactive galvanic series** chart with 30+ materials
+- `app/`: Vercel frontend and shared uniform-corrosion engine.
+- `api/`: Render HTTP API, Python model adapter, tests and dependency pins.
+- `supabase/`: schema, row access policies and isolation test.
+- `pinn_model.py`, `graph_dataset.py`, `inference.py`: retained research model and inference utilities.
+- `Post training/`: original checkpoint files and 200-epoch logs for each run; Git LFS required.
+- `train.py`, `run_cloud.py`, original datasets/notebook: research/training workflow retained.
+- `docs/`: research, migration, verification and operational documentation.
 
-## Project Structure
-
-```
-MAST-Corrosion/
-├── streamlit_app.py                 # Streamlit dashboard (main UI)
-├── streamlit_utils.py               # Backend: model loading, inference, heatmaps
-├── pinn_model.py                    # GNN architecture + physics-informed loss
-├── pinn_architecture.py             # Original architecture (reference)
-├── graph_dataset.py                 # PyG dataset: feature engineering, graph construction
-├── train.py                         # Training loop with validation
-├── run_cloud.py                     # Cloud training entry point
-├── data_extraction.py               # PDF table extraction to CSV
-├── synthetic_data_generator(4).py   # Synthetic training data generation
-├── requirements.txt                 # Python dependencies
-│
-├── pdf_table1_material_groups.csv   # Material group categories
-├── pdf_table2_galvanic_series.csv   # Galvanic series (potentials)
-├── pdf_table3_emf_series.csv        # EMF series reference
-├── synthetic_galvanic_joints_full.csv    # Training dataset (small)
-├── synthetic_galvanic_joints_full_1.csv  # Training dataset (large)
-│
-├── Galvanic_Corrosion_PINN_Cloud.ipynb   # Colab notebook
-│
-└── Post training/
-    ├── 1st Result/                  # Best model checkpoint + logs
-    │   ├── best_model.pt
-    │   ├── training_log.csv
-    │   └── *.png                    # Training visualisations
-    ├── 2nd Result/                  # Second training run
-    └── 3rd Result/                  # Third training run
-```
-
-## Data
-
-The model is trained on synthetic galvanic joint data derived from the **MIL-STD-889D** galvanic series in seawater, covering:
-
-- **30+ materials** across 17 material groups
-- **3 environments**: Marine (seawater), Industrial (acidic rain), Rural (freshwater)
-- **Variable area ratios**: 0.01 – 50.0
-
-## License
-
-This project is part of the MAST Consolidate research programme.
-
----
-
-<p align="center">
-  Built with PyTorch Geometric & Streamlit<br/>
-  © 2026 MAST Consolidate
-</p>
+This is an engineering research preview. Numerical tests do not establish field predictive accuracy, standards conformance, safe service life or an inspection interval.
