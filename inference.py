@@ -1,7 +1,7 @@
 """
-streamlit_utils.py
+inference.py
 ==================
-Backend utilities for the Galvanic Corrosion PINN Streamlit dashboard.
+Retained inference utilities for the Galvanic Corrosion PINN.
 
 Handles:
   - Model loading from checkpoint
@@ -116,7 +116,7 @@ def load_model(model_path: str = None, device: str = "cpu"):
         model_path = BEST_MODEL_PATH
 
     device = torch.device(device)
-    checkpoint = torch.load(model_path, map_location=device, weights_only=False)
+    checkpoint = torch.load(model_path, map_location=device, weights_only=True)
 
     # Reconstruct model from checkpoint args or defaults
     args = checkpoint.get("args", {})

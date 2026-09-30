@@ -1,0 +1,17 @@
+.git
+app/node_modules
+app/.next
+app/.vinext
+app/.wrangler
+app/.openai
+upstream
+.env*
+**/.env*
+__pycache__
+**/__pycache__
+*.csv
+!pdf_table2_galvanic_series.csv
+!Post training/**/*.csv
+*.ipynb
+Post training/**/*.png
+Post training/**/final_model*.pt

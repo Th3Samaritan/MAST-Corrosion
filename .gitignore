@@ -49,3 +49,16 @@ Thumbs.db
 # Scanned documents
 # ========================
 *.pdf
+
+# Web application and deployment
+node_modules/
+.env
+.env.*
+!.env.example
+.next/
+.vercel/
+*.tsbuildinfo
+__pycache__/
+.pytest_cache/
+.DS_Store
+coverage/

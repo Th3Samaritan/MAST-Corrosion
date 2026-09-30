@@ -22,6 +22,4 @@ scikit-learn>=1.2.0
 # Utilities (optional, for plotting training curves)
 matplotlib>=3.5.0
 
-# Streamlit dashboard
-streamlit>=1.30.0
-plotly>=5.18.0
+# Production inference pins: api/requirements.txt
